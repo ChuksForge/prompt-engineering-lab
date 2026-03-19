@@ -1,0 +1,1247 @@
+task_id,category,difficulty,model,output,latency_s,constraint_results,constraints_total,constraints_passed,pass_rate,failure_modes,failure_taxonomy,error
+MS01,multi_step,easy,GPT-4o-mini,"1) Machine learning is a subset of artificial intelligence that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention.  
+2) A real-world example of machine learning is the recommendation algorithms used by streaming services like Netflix to suggest movies and shows based on user preferences and viewing history.  
+3) One limitation of machine learning is that it can require large amounts of high-quality data to train models effectively, and poor-quality or biased data can lead to inaccurate or unfair outcomes.",8.43948745727539,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS01,multi_step,easy,GPT-4o,"1) Machine learning is a subset of artificial intelligence that involves the development of algorithms and statistical models that enable computers to learn from and make predictions or decisions based on data. 
+
+2) A real-world example of machine learning is the recommendation systems used by streaming services like Netflix, which analyze user viewing habits to suggest movies and TV shows that a user might enjoy.
+
+3) One limitation of machine learning is its dependency on large amounts of high-quality data, as biased or insufficient data can lead to inaccurate models and predictions.",5.937155723571777,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS01,multi_step,easy,Claude Haiku,"# Machine Learning Overview
+
+**1) Definition:**
+Machine learning is a type of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for each task.
+
+**2) Real-world example:**
+Email spam filters use machine learning to analyze thousands of emails and learn to automatically classify incoming messages as spam or legitimate based on patterns in sender addresses, content, and user behavior.
+
+**3) Limitation:**
+Machine learning models require large amounts of high-quality training data, and their performance can suffer significantly when applied to situations very different from the data they were trained on (a problem called ""domain shift"").",3.029921531677246,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS01,multi_step,easy,Claude Sonnet 4.6,"# Machine Learning: Quick Overview
+
+## 1. 📖 Definition
+Machine learning is a branch of artificial intelligence in which systems **learn patterns from data** to make predictions or decisions without being explicitly programmed for each task.
+
+---
+
+## 2. 🌍 Real-World Example
+**Email spam filtering** — Gmail analyzes thousands of email features (sender, keywords, structure) to automatically learn what distinguishes spam from legitimate mail and sorts your inbox accordingly.
+
+---
+
+## 3. ⚠️ Limitation
+Machine learning models can reflect and even **amplify biases present in training data**, leading to unfair or inaccurate outcomes for underrepresented groups — for example, facial recognition systems performing poorly on darker skin tones.",5.366175174713135,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS01,multi_step,easy,Mistral small creative,"1) **Definition**: *Machine learning* is a subset of artificial intelligence that enables systems to automatically learn and improve from experience (data) without being explicitly programmed.
+
+2) **Real-world example**: **Recommendation systems** (e.g., Netflix or Amazon) use machine learning to analyze user behavior (e.g., past views/purchases) and predict preferences, personalizing suggestions in real time.
+
+3) **Limitation**: *Bias in training data* can lead to discriminatory or unfair outcomes (e.g., facial recognition systems performing poorly for certain ethnic groups or gender biases in hiring algorithms).",2.319096088409424,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS01,multi_step,easy,Llama 3 8B,"Here are the requested items:
+
+1. **Definition:** Machine learning is a subfield of artificial intelligence that involves training algorithms to learn from data, enabling them to make predictions, classify objects, or make decisions without being explicitly programmed for each task.
+2. **Real-world example:** A real-world example of machine learning is how Netflix uses it to recommend movies and TV shows to users based on their viewing history and preferences, allowing them to personalize their content offerings and improve user engagement.
+3. **Limitation:** One limitation of machine learning is that it requires large amounts of high-quality data to train the algorithms, which can be a significant challenge in certain domains, such as healthcare or finance, where data may be scarce, sensitive, or difficult to collect.",2.459597110748291,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'definition|machine learning|is|refers to' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'example|such as|for instance|like|used i' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'limitation|drawback|challenge|weakness|h' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,GPT-4o-mini,"1) The capital of France is Paris. 2) As of 2023, Paris has a population of approximately 2.1 million people. 3) One famous landmark in Paris is the Eiffel Tower. 4) That concludes the summary.",5.114536762237549,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,GPT-4o,"1) The capital of France is Paris. 2) As of the latest estimates, Paris has a population of approximately 2.1 million people. 3) One famous landmark in Paris is the Eiffel Tower. 4) That concludes the summary.",1.2177860736846924,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,Claude Haiku,"# France's Capital
+
+1) The capital of France is **Paris**.
+
+2) Paris has a population of approximately 2.1 million people within the city proper, though the greater metropolitan area has around 12 million residents.
+
+3) One famous landmark is the **Eiffel Tower**, an iconic iron lattice structure built in 1889.
+
+That concludes the summary.",2.599574565887451,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,Claude Sonnet 4.6,"Here are the steps completed in order:
+
+1) The capital of France is **Paris**.
+
+2) Paris has a population of approximately 2.1 million people in the city proper, with over 12 million in the greater metropolitan area.
+
+3) One famous landmark in Paris is the **Eiffel Tower**, an iconic iron lattice tower built in 1889.
+
+That concludes the summary.",2.5885798931121826,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,Mistral small creative,"1) The capital of France is **Paris**.
+
+2) As of recent estimates, Paris has a population of approximately **2.1 million people within its city limits**, with over **11 million** in the greater metropolitan area.
+
+3) One famous landmark in Paris is the **Eiffel Tower**, an iconic iron lattice tower built in 1889.
+
+That concludes the summary.",1.1350398063659668,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS02,multi_step,easy,Llama 3 8B,"Here are the steps completed:
+
+1. The capital of France is Paris.
+2. Paris has a population of approximately 2.1 million people.
+3. One famous landmark in Paris is the Eiffel Tower.
+That concludes the summary.",1.3331844806671143,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'paris' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'population|million|people|inhabitants' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'eiffel|louvre|notre|landmark|tower' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'That concludes the summary.' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS03,multi_step,medium,GPT-4o-mini,"1) Two possible root causes for the bakery losing customers could be: a) Lack of product variety or innovation compared to the new competitor, and b) Poor marketing or visibility in the community, leading to decreased customer awareness of the bakery's offerings.
+
+2) A short-term action could be to run a promotional campaign offering discounts or special deals to attract customers back. A long-term action could be to revamp the menu by introducing new products and seasonal items to enhance variety and appeal.
+
+3) The estimated timeframe for the long-term action of revamping the menu would be approximately 3 to 6 months, allowing time for research, development, and testing of new recipes.
+
+4) By addressing product variety and improving marketing efforts, the bakery can regain its customer base and compete effectively with the new competitor.",3.6679611206054688,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 4, required 4"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS03,multi_step,medium,GPT-4o,"1) Two possible root causes for the bakery losing customers could be: a) The competitor offers a wider variety of products or unique items that attract more customers. b) The competitor provides a better customer experience, such as superior service, ambiance, or pricing.
+
+2) A short-term action the bakery can take is to introduce a limited-time promotion or discount to attract customers back and encourage them to try their products again.
+
+3) A long-term action is to conduct market research to understand customer preferences and then diversify the product range or improve the customer experience based on the findings. This could involve introducing new products, enhancing the bakery's ambiance, or training staff to improve service quality.
+
+4) The estimated timeframe for implementing the long-term action, including conducting research, analyzing results, and making necessary changes, is approximately 6 to 12 months.",4.108421087265015,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 4, required 4"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS03,multi_step,medium,Claude Haiku,"# Bakery Customer Retention Strategy
+
+1. **Root Cause Analysis**: The two most likely causes are (a) the competitor offers lower prices or more convenient location/hours, and (b) the bakery's product quality, variety, or customer service has declined relative to competitor expectations.
+
+2. **Short-Term Action**: Launch a customer loyalty program immediately—offer a ""buy 9, get 1 free"" punch card or a 10% discount for repeat customers within the next 2-4 weeks to re-engage existing customers and create switching costs.
+
+3. **Long-Term Action**: Develop a unique value proposition by introducing specialty products (e.g., artisanal sourdough, custom cakes, dietary-specific options) and enhance the in-store experience through improved ambiance, staff training, or a small café area to differentiate from the competitor.
+
+4. **Timeframe Estimate**: The long-term action should take 3-6 months to fully implement and begin showing measurable results in customer retention and sales recovery, with initial product launches possible within 6-8 weeks.",4.120781421661377,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 4, required 4"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS03,multi_step,medium,Claude Sonnet 4.6,"Here is my response in exactly four numbered points:
+
+**1. Two Possible Root Causes**
+The bakery may be losing customers due to **pricing disadvantage** — the competitor likely launched with promotional low prices that attract budget-conscious buyers. Additionally, **product or experience stagnation** may be a factor, meaning the bakery has not refreshed its menu, branding, or customer experience in a way that competes with the novelty and appeal of a new establishment.
+
+**2. Short-Term Action**
+Launch an immediate **customer loyalty program** — for example, a punch card or digital reward system offering a free item after every ten purchases. This creates a tangible incentive for existing customers to stay engaged and reduces the temptation to switch permanently to the competitor.
+
+**3. Long-Term Action**
+Invest in **building a distinct brand identity and specialty niche** — for example, becoming the go-to bakery for locally sourced, artisan, or culturally specific baked goods. This involves recipe development, supplier relationships, staff training, and targeted marketing to own a unique market position the competitor cannot easily replicate.
+
+**4. Estimated Timeframe for the Long-Term Action**
+Fully executing the niche brand strategy would realistically require **12 to 24 months**, accounting for product testing, community brand awareness building, consistent marketing efforts, and measurable customer loyalty growth that reflects a sustainable competitive advantage.",9.048017978668213,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": false, ""detail"": ""Numbered items: found 0, required 4"", ""failure_mode"": ""WRONG_FORMAT""}]",4,3,0.75,"[""WRONG_FORMAT""]",WRONG_FORMAT,
+MS03,multi_step,medium,Mistral small creative,"1. **Possible Root Causes**:
+   - **Poor Customer Experience**: The competitor may offer faster service, friendlier staff, or a more modern in-store experience (e.g., digital ordering, loyalty programs, or a welcoming atmosphere). The bakery’s outdated processes (e.g., long wait times, impersonal interactions) could drive customers away.
+   - **Limited Product Differentiation**: The competitor might provide unique or trendier offerings (e.g., gluten-free/vegan options, artisanal flavors, or themed pastries) that the bakery lacks. If the bakery’s menu feels stale or generic, customers may perceive the competitor as more innovative or tailored to their tastes.
+
+2. **Short-Term Action**:
+   - **Launch a ""Win-Back"" Promotion**: Offer a limited-time discount (e.g., ""Buy 1 Loaf, Get 1 Half-Price"") or a freebie (e.g., a free cookie with every purchase) to incentivize former customers to return. Pair this with a friendly, handwritten note (e.g., *""We missed you! Here’s a treat on us—hope to see you soon!""*) to rebuild emotional connection. Promote the offer via social media, flyers in the neighborhood, and a small email/SMS blast to past customers (if contact info is available).
+
+3. **Long-Term Action**:
+   - **Redesign the Customer Journey and Menu**: Overhaul the bakery’s operations to focus on **speed, personalization, and uniqueness**. This includes:
+     - **Streamlining service**: Train staff to greet customers warmly within 10 seconds, implement a pre-order system (online or via phone), and reduce wait times with efficient workflows (e.g., separate counters for bread/pastries).
+     - **Menu innovation**: Introduce 2–3 new signature products per quarter (e.g., seasonal flavors, local collaborations, or customer-voted specials) and highlight them with storytelling (e.g., *""Meet our new Honey-Lavender Croissant—inspired by Grandma’s recipe!""*).
+     - **Loyalty program**: Roll out a simple punch-card system (e.g., ""10th visit free pastry"") or a digital app (if feasible) to encourage repeat visits.
+   - **Competitor Analysis**: Regularly visit the competitor to observe their strengths (e.g., packaging, staff interactions, pricing) and adapt *one* key element (e.g., their ""build-your-own breakfast box"" idea) to the bakery’s brand.
+
+4. **Timeframe for Long-Term Action**:
+   - **6–12 months**: The full redesign (customer journey + menu + loyalty program) requires iterative testing and refinement. Break it into phases:
+     - **Months 1–3**: Train staff, launch the first menu innovation (e.g., 1–2 new products), and pilot a simple loyalty punch card. Track customer feedback and sales data.
+     - **Months 4–6**: Introduce pre-orders (online/phone) and a second menu update based on early feedback. Gather competitor insights and plan the next phase.
+     - **Months 7–12**: Refine the loyalty program (e.g., add tiers or digital tracking), roll out the final menu changes, and standardize the improved customer service. By the end, the bakery should see measurable improvements in retention and sales.",5.038933515548706,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 4, required 4"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS03,multi_step,medium,Llama 3 8B,"Here are the solutions to the business problem:
+
+1. **Identify two possible root causes:**
+	* Root Cause 1: **Inadequate marketing and advertising**: The bakery may not be effectively promoting its products and services to its target audience, leading to a lack of awareness and visibility among potential customers. This could be due to a lack of budget for advertising, ineffective marketing strategies, or a failure to adapt to changing consumer preferences.
+	* Root Cause 2: **Poor customer experience**: The bakery may be failing to meet customer expectations in terms of product quality, service, or convenience, leading to a decline in customer loyalty and retention. This could be due to a lack of training for staff, inadequate equipment, or a failure to innovate and adapt to changing customer needs.
+
+2. **Suggest one short-term action and one long-term action:**
+	* Short-term action: **Run a social media campaign**: Launch a targeted social media campaign to raise awareness about the bakery's products and services, and to engage with customers and potential customers. This could include offering promotions, discounts, or limited-time offers to attract new customers and encourage repeat business.
+	* Long-term action: **Develop a loyalty program**: Implement a loyalty program that rewards repeat customers with exclusive offers, discounts, and perks. This could include a rewards card, email newsletter, or mobile app that allows customers to track their points and redeem rewards. This would help to build customer loyalty and retention over the long-term.
+
+3. **Estimate a rough timeframe for the long-term action:**
+	* The long-term action of developing a loyalty program would likely take **6-12 months** to implement, depending on the complexity of the program and the resources available. This would involve researching and selecting a loyalty program platform, designing and launching the program, and promoting it to customers.
+
+4. **Rough estimate of costs and resources required:**
+	* The short-term social media campaign would require an initial investment of **$1,000-$3,000**, depending on the scope and reach of the campaign. This would cover the cost of advertising, content creation, and social media management.
+	* The long-term loyalty program would require an initial investment of **$5,000-$10,000**, depending on the complexity of the program and the resources required to implement it. This would cover the cost of developing and launching the program, as well as ongoing maintenance and support.",6.104602813720703,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'cause|reason|because|competitor|price|qu' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'short.term|immediate|quickly|long.term|s' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'month|year|week|timeframe|timeline' found"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 4, required 4"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,GPT-4o-mini,"1) **Sentiment**: Mixed  
+2) **Complaints**: - The packaging was damaged when it arrived.  
+   - Customer service didn't respond to my complaint email.  
+3) **Improvement Suggestion**: The company could improve their customer service response time to ensure that customer complaints are addressed promptly.  
+4) **Helpfulness Rating**: 4  
+   Justification: The review provides valuable insights into both the product's performance and specific issues with shipping and customer service, making it useful for potential buyers.",3.6014761924743652,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,GPT-4o,"1) Sentiment: Mixed
+
+2) Complaints: 
+   - The packaging was damaged when it arrived.
+   - Customer service didn't respond to the complaint email.
+
+3) Suggestion for Improvement: The company could improve by enhancing their customer service responsiveness to address customer complaints more effectively.
+
+4) Helpfulness Rating: 4  
+   Justification: The review provides a balanced perspective by highlighting both positive aspects of the product and specific areas for improvement, making it useful for potential buyers and the company.",2.661745309829712,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,Claude Haiku,"# Review Analysis
+
+**1) Sentiment:** Mixed
+- The review contains both negative elements (damaged packaging, slow shipping, poor customer service) and positive elements (product quality and value).
+
+**2) Specific Complaints:**
+- Damaged packaging upon arrival
+- Customer service failed to respond to complaint email
+
+**3) Suggested Improvement:**
+The company should establish a responsive customer service system with guaranteed response times to complaints, particularly for shipping and packaging issues.
+
+**4) Helpfulness Rating:** 4/5
+This review is highly helpful because it provides specific, actionable feedback about multiple aspects of the customer experience (shipping, packaging, product quality, and service), which would assist both potential buyers and the company in understanding areas needing improvement.",2.8666698932647705,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,Claude Sonnet 4.6,"# Product Review Analysis
+
+## 1) Sentiment
+**Mixed** — The review contains both negative experiences (shipping, packaging, customer service) and a genuinely positive reaction to the product's performance and value.
+
+---
+
+## 2) Two Specific Complaints
+1. **Damaged packaging upon arrival combined with an excessively long shipping time** (three weeks)
+2. **Customer service failed to respond** to the customer's complaint email
+
+---
+
+## 3) Suggested Improvement
+The company should implement a **guaranteed customer service response protocol** — such as an automated acknowledgment followed by a mandatory 24-48 hour human response window — to ensure complaints are never left unaddressed.
+
+---
+
+## 4) Helpfulness Rating
+**4 out of 5**
+
+This review is highly helpful because it provides specific, actionable details across multiple touchpoints (shipping, product quality, pricing, and customer service), giving both the company and potential buyers a well-rounded picture — losing one point only because it lacks specifics about *which* product features impressed the customer.",7.16094708442688,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,Mistral small creative,"1) **Sentiment**: **Mixed** – The review contains both positive and negative aspects.
+
+2) **Specific Complaints**:
+   - The packaging was damaged when it arrived.
+   - Customer service did not respond to the complaint email.
+
+3) **Suggested Improvement**:
+   The company could **improve packaging durability** (e.g., using stronger materials or better cushioning) and **enhance customer service responsiveness** (e.g., setting clear response time expectations or implementing an automated acknowledgment system).
+
+4) **Helpfulness Rating**: **4/5** – The review provides balanced, detailed feedback, making it useful for potential buyers despite the mixed sentiment.",1.9577128887176514,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS04,multi_step,medium,Llama 3 8B,"Here's the analysis:
+
+**1. Sentiment:** Mixed
+
+The reviewer is unhappy with the packaging damage and the shipping time, but they are pleased with the product's performance and value for the price.
+
+**2. Complaints:** Two specific complaints exist:
+
+* The packaging was damaged when it arrived.
+* The product took three weeks to ship.
+
+**3. Improvement suggestion:** The company could improve by ensuring that products are properly packaged and shipped in a timely manner to prevent damage and reduce shipping times.
+
+**4. Helpfulness rating:** 4 out of 5
+
+I rate this review as helpful because it provides specific feedback on the product's performance, as well as specific complaints about the shipping and packaging, which can help the company identify areas for improvement.",3.376357316970825,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'positive|negative|mixed|sentiment' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'complaint|issue|problem|no complaints' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 3: keyword pattern 'suggest|improve|recommend|could|should' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'helpfulness|helpful|rate|rating|out of|/' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+MS05,multi_step,hard,GPT-4o-mini,"I understand that your goal is to diversify your $50,000 portfolio effectively. I recommend allocating your portfolio as follows: 40% in U.S. equities, 30% in bonds, and 30% in real estate investment trusts (REITs). The specific risks associated with these asset classes are: U.S. equities may experience market volatility, bonds are subject to interest rate risk, and REITs can be affected by fluctuations in the real estate market. Please note that all investments carry risks, and past performance is not indicative of future results. Would you like to discuss any of these in more detail?",4.247853517532349,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": true, ""detail"": ""Percentages found: [40, 30, 30] = 100% (target 100%)"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 4 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": false, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,4,0.8,"[""MISSED_STEP""]",MISSED_STEP,
+MS05,multi_step,hard,GPT-4o,"1) I understand that your goal is to diversify your $50,000 portfolio effectively.  
+2) I recommend allocating 50% to equities, 30% to bonds, and 20% to real estate investment trusts (REITs).  
+3) Equities carry the risk of market volatility, bonds are subject to interest rate risk, and REITs can be affected by changes in real estate market conditions.  
+4) Please note that all investments carry inherent risks, and past performance is not indicative of future results.  
+5) Would you like to discuss any of these in more detail?",3.078617811203003,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": true, ""detail"": ""Percentages found: [50, 30, 20] = 100% (target 100%)"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 4 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": false, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,4,0.8,"[""MISSED_STEP""]",MISSED_STEP,
+MS05,multi_step,hard,Claude Haiku,"# Portfolio Diversification Plan for $50,000
+
+1) **Acknowledgment:** I understand you're looking to diversify your $50,000 portfolio to balance growth potential with risk management.
+
+2) **Asset Class Recommendations:**
+   - **Stocks (Equities): 60%** ($30,000) - Growth-oriented core holding
+   - **Bonds (Fixed Income): 30%** ($15,000) - Stability and income generation
+   - **Cash/Money Market: 10%** ($5,000) - Liquidity and emergency reserves
+
+3) **Risk Identification:**
+   - **Stocks:** Market volatility can cause significant short-term price fluctuations and potential losses
+   - **Bonds:** Interest rate increases can reduce bond values, particularly for longer-duration bonds
+   - **Cash/Money Market:** Inflation risk may erode purchasing power if returns don't keep pace with inflation
+
+4) **Disclaimer:** This recommendation is general in nature and does not account for your specific financial situation, risk tolerance, time horizon, or investment objectives, so please consult with a qualified financial professional before implementing any strategy.
+
+5) **Would you like to discuss any of these in more detail?**",4.010761737823486,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": true, ""detail"": ""Percentages found: [60, 30, 10] = 100% (target 100%)"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 8 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,5,1.0,[],FULL_COMPLIANCE,
+MS05,multi_step,hard,Claude Sonnet 4.6,"# Portfolio Diversification Plan for $50,000
+
+## 1. Acknowledging Your Goal
+Your goal of diversifying your $50,000 portfolio is a smart strategy to help balance risk and reward across multiple investment types.
+
+---
+
+## 2. Recommended Asset Allocation
+
+| Asset Class | Allocation | Dollar Amount |
+|-------------|------------|---------------|
+| **Stocks (Equities)** | 60% | $30,000 |
+| **Bonds (Fixed Income)** | 30% | $15,000 |
+| **Real Estate (REITs)** | 10% | $5,000 |
+| **Total** | **100%** | **$50,000** |
+
+---
+
+## 3. Key Risks Per Asset Class
+
+- **Stocks:** Market volatility can cause significant short-term value loss, especially during economic downturns
+- **Bonds:** Rising interest rates can decrease bond values, reducing your fixed-income returns
+- **REITs:** Real estate market fluctuations and rising interest rates can negatively impact property valuations and dividend payouts
+
+---
+
+## 4. Disclaimer
+*This recommendation is for general informational purposes only and does not constitute personalized financial advice; please consult a licensed financial professional before making investment decisions.*
+
+---
+
+Would you like to discuss any of these in more detail?",6.638413190841675,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": false, ""detail"": ""Percentages found: [60, 30, 10, 100] = 200% (target 100%)"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 4 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,4,0.8,"[""WRONG_FORMAT""]",WRONG_FORMAT,
+MS05,multi_step,hard,Mistral small creative,"1) **Acknowledgment**: I understand you’re looking to diversify your $50,000 portfolio to balance growth, stability, and risk while aligning with your long-term financial goals.
+
+2) **Recommended Allocation**:
+   - **U.S. Stocks (ETFs like SPY or VTI)**: **60%** – Core exposure to equities for growth potential.
+   - **International Stocks (ETFs like VXUS or IEFA)**: **25%** – Diversification beyond U.S. markets to capture global growth.
+   - **Short-Term U.S. Treasury Bonds (ETFs like BIL or SGOV)**: **15%** – Stability and liquidity to mitigate volatility.
+
+3) **Risks by Asset Class**:
+   - **U.S. Stocks**: Market downturns (e.g., recessions or geopolitical shocks) can erode value.
+   - **International Stocks**: Currency fluctuations or emerging-market instability may reduce returns.
+   - **Bonds**: Interest rate hikes could lower bond prices, impacting short-term yields.
+
+4) **Disclaimer**: This allocation is a general recommendation and may not suit your specific risk tolerance, time horizon, or tax situation; consult a fiduciary advisor for personalized advice.
+
+Would you like to discuss any of these in more detail?",2.824674606323242,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": true, ""detail"": ""Percentages found: [60, 25, 15] = 100% (target 100%)"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 5 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' found"", ""failure_mode"": """"}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,5,1.0,[],FULL_COMPLIANCE,
+MS05,multi_step,hard,Llama 3 8B,"Here's the response:
+
+I understand that your goal is to diversify your $50,000 portfolio to minimize risk and maximize returns.
+
+Based on your investment objectives, I recommend allocating your portfolio as follows:
+
+* 40% to a Total Stock Market Index Fund (e.g. Vanguard Total Stock Market Index Fund), which provides broad exposure to the US stock market and has historically provided long-term growth potential.
+* 30% to a High-Yield Bond Fund (e.g. iShares iBoxx $ High Yield Corporate Bond ETF), which offers a relatively stable source of income and can help reduce portfolio volatility.
+* 30% to a Real Estate Investment Trust (e.g. Vanguard Real Estate ETF), which provides exposure to the real estate market and can offer a hedge against inflation.
+
+Some specific risks associated with each asset class are:
+* The Total Stock Market Index Fund is subject to market volatility and may decline in value during periods of economic downturn.
+* The High-Yield Bond Fund is subject to credit risk, which is the risk that the borrower may default on their debt obligations.
+* The Real Estate Investment Trust is subject to real estate market fluctuations and may be affected by changes in interest rates.
+
+Please note that past performance is not a guarantee of future results, and it's essential to evaluate your individual financial situation and risk tolerance before making any investment decisions.
+
+Would you like to discuss any of these in more detail?",3.6748881340026855,"[{""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'goal|diversif|acknowledge|understand|obj' found"", ""failure_mode"": """"}, {""constraint_type"": ""allocation_sum"", ""passed"": true, ""detail"": ""Percentages found: [40, 30, 30] = 100% (target 100%)"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'risk|volatile|inflation|intere' appeared 7 times (min 3)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": false, ""detail"": ""Step 4: keyword pattern 'disclaimer|advice|consult|professional|n' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'Would you like to discuss any of these in more detail?' found"", ""failure_mode"": """"}]",5,4,0.8,"[""MISSED_STEP""]",MISSED_STEP,
+MS06,multi_step,hard,GPT-4o-mini,"**INTRODUCING DRAFTAI: YOUR ULTIMATE AI WRITING ASSISTANT!**
+
+We are thrilled to announce the launch of DraftAI, the revolutionary AI writing tool designed to elevate your writing experience to new heights. Whether you're a seasoned author, a student, or a professional looking to enhance your communication skills, DraftAI is here to help you craft compelling content effortlessly. With its intuitive interface and powerful algorithms, DraftAI is available now to transform the way you write.
+
+DraftAI comes packed with innovative features that set it apart from the competition. Our advanced grammar and style checker ensures your writing is polished and professional, while the built-in brainstorming tool helps you generate fresh ideas in seconds. Say goodbye to writer's block and hello to a world of creativity at your fingertips. With DraftAI, you can create engaging articles, essays, and reports with ease, all while maintaining your unique voice.
+
+Don't miss out on the opportunity to revolutionize your writing process. Join the growing community of satisfied users who have already discovered the benefits of DraftAI. Visit us today at [website-url] to learn more and start your free trial!",4.346924304962158,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: '**INTRODUCING DRAFTAI: YOUR ULTIMATE AI WRITING ASSISTANT!**' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'available now' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 9 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,4,0.8,"[""WRONG_FORMAT""]",WRONG_FORMAT,
+MS06,multi_step,hard,GPT-4o,"INTRODUCING DRAFTAI: THE FUTURE OF WRITING IS HERE!
+
+We are thrilled to announce the launch of DraftAI, the revolutionary new AI writing tool that is set to transform the way you create content. DraftAI is designed to make writing faster, easier, and more efficient than ever before. With its cutting-edge technology, DraftAI offers a seamless experience that caters to writers of all levels, from seasoned professionals to budding authors. Available now, this innovative tool is ready to help you elevate your writing game.
+
+DraftAI comes packed with powerful features that set it apart from the competition. Our advanced AI-driven content generator can produce high-quality drafts in seconds, allowing you to focus on refining your ideas rather than getting bogged down in the initial writing process. Additionally, DraftAI's intelligent style editor provides real-time suggestions to enhance your writing style, ensuring your content is not only grammatically correct but also engaging and impactful. These features, combined with an intuitive user interface, make DraftAI an indispensable tool for anyone looking to streamline their writing process.
+
+Don't miss out on the opportunity to revolutionize your writing with DraftAI. Whether you're crafting a novel, drafting a business proposal, or simply jotting down ideas, DraftAI is your ultimate writing companion. Visit [website-url] today to learn more and start your free trial. Embrace the future of writing with DraftAI!",6.380497694015503,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: 'INTRODUCING DRAFTAI: THE FUTURE OF WRITING IS HERE!' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": false, ""detail"": ""Exact phrase 'available now' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 17 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,3,0.6,"[""WRONG_FORMAT"", ""MISSED_STEP""]",PARTIAL_COMPLIANCE (WRONG_FORMAT+),
+MS06,multi_step,hard,Claude Haiku,"# **INTRODUCING DRAFΤΑΙ: THE AI WRITING ASSISTANT THAT TRANSFORMS YOUR IDEAS INTO POLISHED PROSE**
+
+We're thrilled to announce DraftAI, a revolutionary writing tool designed to help professionals, students, and creators produce high-quality content in a fraction of the time. Whether you're crafting emails, articles, reports, or creative projects, DraftAI harnesses advanced artificial intelligence to understand your intent and generate compelling text that matches your unique voice and style. Available now, DraftAI is ready to become your personal writing partner, eliminating writer's block and boosting your productivity.
+
+DraftAI comes equipped with powerful features that set it apart from traditional writing tools. Our intelligent tone adjustment system allows you to instantly shift your writing from formal to casual, technical to conversational, or any style in between—perfect for adapting content across different audiences and platforms. Additionally, our real-time research integration seamlessly pulls relevant information and citations into your drafts, ensuring your writing is both accurate and well-supported without requiring you to leave the application.
+
+Stop struggling with blank pages and endless revisions. DraftAI empowers you to write faster, smarter, and with greater confidence. Join thousands of satisfied users who are already transforming their writing process. Get started today by visiting [website-url] and claim your free trial!",4.531170845031738,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: '# **INTRODUCING DRAF\u03a4\u0391\u0399: THE AI WRITING ASSISTANT THAT TRANS' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": false, ""detail"": ""Exact phrase 'available now' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 8 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,3,0.6,"[""WRONG_FORMAT"", ""MISSED_STEP""]",PARTIAL_COMPLIANCE (WRONG_FORMAT+),
+MS06,multi_step,hard,Claude Sonnet 4.6,"# INTRODUCING DRAFTAI: THE FUTURE OF WRITING IS HERE
+
+We are thrilled to announce the launch of DraftAI, a revolutionary AI-powered writing tool designed to transform the way you create content. Whether you're a seasoned professional, a student, or a creative writer, DraftAI is built to meet you where you are and elevate every word you put on the page. After months of development and rigorous testing, this groundbreaking tool is **available now** and ready to change your writing experience forever.
+
+DraftAI comes packed with powerful features that set it apart from anything else on the market. Its **Smart Tone Adjustment** feature automatically detects and refines the tone of your writing to match your intended audience, whether that's formal, conversational, or persuasive. Additionally, the **Real-Time Plagiarism Checker** ensures that every piece of content you produce is 100% original, giving you confidence and peace of mind with every draft. These features work seamlessly together to make your writing process faster, smarter, and more effective.
+
+The future of effortless, high-quality writing is no longer a dream — it's a reality you can access today. DraftAI is designed for anyone who wants to write better, faster, and with greater confidence. Don't let writer's block or time constraints hold you back any longer. Visit **[website-url]** to start your free trial and discover what DraftAI can do for you.",9.372195482254028,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: '# INTRODUCING DRAFTAI: THE FUTURE OF WRITING IS HERE' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": true, ""detail"": ""Exact phrase 'available now' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 10 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,4,0.8,"[""WRONG_FORMAT""]",WRONG_FORMAT,
+MS06,multi_step,hard,Mistral small creative,"**UNLEASH YOUR WORDS WITH DRAFTAI: THE FUTURE OF AI-POWERED WRITING IS HERE!**
+
+Tired of staring at a blank page, struggling to find the right words, or wasting hours editing? Meet **DraftAI**—the revolutionary AI writing tool designed to transform your ideas into polished, professional content in seconds. Whether you're drafting emails, crafting blog posts, or brainstorming marketing copy, DraftAI combines cutting-edge natural language processing with intuitive user controls to deliver **human-like precision and creativity**. No more writer’s block, no more guesswork—just seamless, high-quality writing tailored to your voice and needs. **Available now**, DraftAI is your new writing partner, ready to elevate your work with speed and style.
+
+What sets DraftAI apart? First, our **Smart Tone Adaptor** analyzes your writing style and adjusts the output to match—whether you need a formal report, a casual social media post, or a persuasive sales pitch. Second, the **Real-Time Collaboration Mode** lets you invite team members to co-create and refine content together, with AI suggestions that evolve as you work. Plus, with built-in plagiarism checks and SEO optimization, you can trust that every draft is original, engaging, and ready to perform. Say goodbye to generic AI outputs—DraftAI learns with you, ensuring every word feels uniquely *yours*.
+
+Ready to write smarter, faster, and with confidence? **DraftAI is here to revolutionize the way you create.** Join thousands of writers, marketers, and professionals who are already supercharging their workflow. Try DraftAI today—**no credit card required**—and experience the difference for yourself. [Visit [website-url]]([website-url]) to start your free trial now!",2.9541280269622803,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: '**UNLEASH YOUR WORDS WITH DRAFTAI: THE FUTURE OF AI-POWERED ' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": false, ""detail"": ""Exact phrase 'available now' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 13 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,3,0.6,"[""WRONG_FORMAT"", ""MISSED_STEP""]",PARTIAL_COMPLIANCE (WRONG_FORMAT+),
+MS06,multi_step,hard,Llama 3 8B,"**INTRODUCING DRAFTAI: REVOLUTIONIZING THE WAY YOU WRITE**
+
+Get ready to take your writing to the next level with DraftAI, the revolutionary new AI writing tool that's changing the game. Available now, DraftAI is designed to help you write faster, better, and more efficiently than ever before. With its cutting-edge natural language processing technology, DraftAI can help you generate high-quality content in a fraction of the time it takes to write it manually.
+
+One of the standout features of DraftAI is its ability to suggest alternative phrases and sentences to help you improve the clarity and coherence of your writing. This feature, known as ""PhraseGenie,"" uses machine learning algorithms to analyze your text and provide you with a range of options to choose from. Additionally, DraftAI's ""ToneMaster"" feature allows you to adjust the tone of your writing to suit your audience and purpose, ensuring that your content resonates with your readers.
+
+Whether you're a professional writer, a student, or a business owner, DraftAI is the perfect tool for anyone looking to improve their writing skills and productivity. With its intuitive interface and powerful features, you'll be able to write with confidence and precision. So why wait? Try DraftAI today and discover a new way to write. Visit [website-url] to learn more and start your free trial!",3.7024223804473877,"[{""constraint_type"": ""starts_with_caps_headline"", ""passed"": true, ""detail"": ""First line: '**INTRODUCING DRAFTAI: REVOLUTIONIZING THE WAY YOU WRITE**' \u2014 ALL CAPS OK"", ""failure_mode"": """"}, {""constraint_type"": ""paragraph_count"", ""passed"": false, ""detail"": ""Paragraphs: found 4, required 3"", ""failure_mode"": ""WRONG_FORMAT""}, {""constraint_type"": ""exact_phrase"", ""passed"": false, ""detail"": ""Exact phrase 'available now' NOT FOUND"", ""failure_mode"": ""MISSED_STEP""}, {""constraint_type"": ""step_count"", ""passed"": true, ""detail"": ""Keyword 'feature|generat|edit|suggest|a' appeared 14 times (min 2)"", ""failure_mode"": """"}, {""constraint_type"": ""contains_pattern"", ""passed"": true, ""detail"": ""Pattern '\\[website-url\\]' found"", ""failure_mode"": """"}]",5,3,0.6,"[""WRONG_FORMAT"", ""MISSED_STEP""]",PARTIAL_COMPLIANCE (WRONG_FORMAT+),
+TP01,tone_persona,easy,GPT-4o-mini,"Dear [Customer's Name],
+
+I’m truly sorry to hear about the delay with your order and the frustration it has caused you. I understand how important it is to receive your items on time, and I can only imagine how disappointing this situation must be.
+
+Please know that we are here to help you. I will personally look into your order status right away and do everything I can to get this resolved for you. Your satisfaction is our top priority, and we appreciate your patience during this time.
+
+Thank you for bringing this to our attention. I’ll be in touch shortly with an update!
+
+Warm regards,  
+[Your Name]  
+Customer Service Team",5.7696661949157715,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, understand, frustrat"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: help, resolve"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP01,tone_persona,easy,GPT-4o,"Hello [Customer's Name],
+
+I’m truly sorry to hear about the delay with your order and the frustration it has caused. I completely understand how disappointing this must be, and I want to assure you that we’re here to help resolve this as quickly as possible.
+
+Please allow me to look into this matter right away. Could you kindly provide me with your order number or any other details you have? I’ll do my best to get to the bottom of this and keep you updated every step of the way.
+
+Thank you for your patience and understanding. We appreciate your trust in us and are committed to making this right for you.
+
+Warm regards,
+
+[Your Name]  
+Customer Service Team",2.872633934020996,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, understand, frustrat"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: help, resolve"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP01,tone_persona,easy,Claude Haiku,"# Thank you for reaching out, and I'm truly sorry to hear about this frustrating experience.
+
+I completely understand how disappointing it must be to have your order delayed for two weeks without proper support—that's not the experience we want for you at all. You deserve better, and I sincerely apologize for letting you down.
+
+I'm here to help make this right. To get you the answers and solutions you need, could you please share:
+
+- Your **order number**
+- What you ordered
+- When you originally placed the order
+
+Once I have these details, I'll personally look into what's happened with your shipment and find out exactly where things stand. Whether it's tracking down your package, exploring options for expedited delivery, or discussing other ways to make this right, I'm committed to resolving this for you.
+
+Again, I'm sorry for the inconvenience and the lack of communication you've experienced. You shouldn't have had to reach out multiple times for help. Let's get this sorted together.",3.376831531524658,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, apologize, understand"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: help"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP01,tone_persona,easy,Claude Sonnet 4.6,"# Response to Customer Complaint
+
+---
+
+Dear Valued Customer,
+
+I am so truly sorry to hear about the frustrating experience you've been going through. A **two-week delay** with no support is absolutely unacceptable, and I completely understand why you're upset — I would feel the exact same way.
+
+Please know that **your concern matters deeply to us**, and I want to make this right for you personally.
+
+Here's what I'd like to do **right now**:
+
+- 🔍 **Immediately look into** the status of your order
+- 📞 **Personally follow up** to get you real answers, not runaround responses
+- ✅ **Make sure you're taken care of** — whether that means expediting your order, a replacement, or appropriate compensation
+
+You should never have had to wait this long, and you certainly shouldn't have felt ignored. That's not the experience we want for you, and I sincerely apologize that we let you down.
+
+**Could you please share your order number?** I want to jump on this immediately and give you the attention you deserve.
+
+Thank you so much for reaching out and giving us the chance to make this right. I promise to stay with you until this is fully resolved. 💙
+
+Warmly,
+**[Your Name]**
+Customer Care Team",8.688490867614746,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, apologize, understand"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: resolve"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP01,tone_persona,easy,Mistral small creative,"**Subject:** We’re So Sorry for the Delay—Let’s Fix This Together
+
+Hi [Customer's Name],
+
+I’m truly sorry to hear about the frustration and inconvenience you’ve experienced with your order. Two weeks is far too long to wait, and I completely understand how disappointing and stressful this must be—especially when you’re not getting the help you deserve. That’s not the experience we want for you, and I sincerely apologize for letting you down.
+
+I’ve looked into your order ([Order #XXXX]), and I can see why you’re upset. Delays like this are never acceptable, and I want to make this right for you. Here’s what I’m going to do right away:
+- **Priority Resolution:** I’ve escalated your order to our fulfillment team to get an immediate update on where things stand. You’ll hear back from me (or a manager) within **[specific timeframe, e.g., 24 hours]** with a clear timeline for delivery—or, if needed, a full refund or replacement sent out ASAP.
+- **Compensation:** As a gesture of our apology, I’d like to offer you **[free shipping on your next order/a discount code/a partial refund—choose what fits your policy]**. It’s the least we can do for the hassle we’ve caused.
+- **Personal Follow-Up:** I’ll personally check in with you tomorrow at **[time]** to share the progress and ensure you’re happy with the resolution. If you’d prefer to chat sooner, my direct line is [phone number] or you can reply to this email anytime.
+
+I know an apology and a plan don’t erase the wait you’ve endured, but please know how deeply I regret that this happened. Our team is here to listen and support you—no more runaround. If there’s anything else you’d like us to do to make this right, just say the word.
+
+Thank you for bringing this to our attention. You deserve better, and I’m committed to making sure you leave this experience feeling heard and valued.
+
+Warmly,
+[Your Full Name]
+[Your Job Title]
+[Company Name]
+[Contact Information]
+[Optional: Company Social Media/Review Links—if appropriate]
+
+---
+**Why this works:**
+1. **Empathy first:** Acknowledges their emotions (""frustrating,"" ""stressful"") without excuses.
+2. **Accountability:** Takes ownership (""we let you down"") and avoids vague corporate speak.
+3. **Clear action plan:** Specific next steps (timeframes, compensation) show you’re not just talking.
+4. **Human touch:** Offers a personal follow-up and open door for further concerns.
+5. **Tone:** Warm, urgent, and solution-focused—no defensiveness or jargon.
+
+**Pro tip:** If your company has a policy against offering refunds/replacements without approval, adjust the compensation part to: *""I’ll need to check with my manager to explore all options for making this right, but I’ll advocate for you and get back to you by [time] with a concrete plan.""* This keeps the promise while being transparent.",4.753117561340332,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, apologize, understand"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": false, ""detail"": ""Prohibited tone FOUND: policy"", ""failure_mode"": ""WRONG_TONE""}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: help, ensure"", ""failure_mode"": """"}]",3,2,0.6667,"[""WRONG_TONE""]",WRONG_TONE,
+TP01,tone_persona,easy,Llama 3 8B,"Dear [Customer],
+
+Oh no, I'm so sorry to hear that your order has been delayed and that you're feeling frustrated and unsupported. I can only imagine how upsetting it must be to wait for something you've been looking forward to receiving.
+
+I want to assure you that I'm here to help and make things right. I'm going to do my best to get to the bottom of what's causing the delay and find a solution for you as soon as possible.
+
+Can you please tell me a little more about your order, such as the order number and what you were expecting to receive? This will help me investigate further and provide you with a more accurate update on your order's status.
+
+In the meantime, I'd like to offer you a gesture of goodwill for the inconvenience you've experienced. Would you like me to provide you with a discount code or a small gift as a token of apology?
+
+Please know that your satisfaction is our top priority, and I'm committed to making things right. I'll be in touch with you shortly to keep you updated on your order's status and to answer any questions you may have.
+
+Thank you for reaching out to us, and I look forward to resolving this issue for you.
+
+Best regards,
+[Your Name]",6.1341657638549805,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sorry, frustrat"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: help"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,GPT-4o-mini,"Arrr, matey! Gather 'round and lend me yer ear, for I be about to spin ye a yarn 'bout a wondrous process known as photosynthesis! Aye, it be the way them green plants be makin' their grub, aye!
+
+Ye see, when the sun be shinin' bright in the sky, them leafy scallywags be hoistin' their sails to catch the rays. They be usin' a bit o' magic called chlorophyll, which be the green stuff in their leaves, to soak up that golden sunlight. Then, with a splash o' water from the soil and a pinch o' carbon dioxide from the air, they be mixin' it all together like a fine grog in a barrel!
+
+And what do they be makin', ye ask? Why, they be conjurin' up sugar, the very treasure that fuels their growth, and givin' off oxygen as a fine bonus for us landlubbers to breathe! Aye, it be a grand cycle, keepin' the world alive and kickin', just like a hearty crew on the high seas!
+
+So next time ye be seein' a plant swayin' in the breeze, remember the magic o' photosynthesis, and give a nod to those green buccaneers for keepin' our ship afloat in this vast ocean of life! Arrr!",5.15322732925415,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: arr, matey, ye"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,GPT-4o,"Arrr, gather 'round, ye scallywags, and let ol' Captain Greenbeard spin ye a yarn 'bout the mystical ways o' the natural world! Photosynthesis, ye see, be a grand and wondrous process, like a treasure map fer the plants and seaweeds o' this here Earth.
+
+In the grand scheme o' things, photosynthesis be the way them green critters, like trees and seaweed, be makin' their grub. They be takin' the sunlight, aye, that fiery orb in the sky, and usin' it like a magical key to unlock the energy within. With a bit o' water from the seas and a breath o' fresh air, they be turnin' that sunlight into food, like a cook in the galley whippin' up a feast from naught but scraps.
+
+The plants be usin' a special kind o' magic called chlorophyll, which be givin' 'em their green hue, to capture the sunlight. Then, they be mixin' it with water and carbon dioxide, which be floatin' 'round in the air, and turnin' it into sugar and oxygen. The sugar be their vittles, and the oxygen be a fine gift fer us breathin' folk.
+
+So, there ye have it, mateys! Photosynthesis be the secret alchemy o' the plant world, turnin' sunlight into sustenance and keepin' the circle o' life spinnin' like a well-oiled ship's wheel. Arrr, ain't nature a clever ol' sea dog?",7.705420970916748,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: arr, matey, ye"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,Claude Haiku,"Ahoy there, matey! *adjusts tricorn hat*
+
+Ye be askin' about photosynthesis, eh? Aye, I'll tell ye what I know from me travels across the seven seas!
+
+'Tis a most curious bit o' natural magic, it be! Ye see, them green plants and seaweed be usin' the power o' the sun's rays to turn water and air into their own treasure - food and oxygen, they do! 
+
+Here be how the scallywags do it: The sun's light be strikin' the leaves o' them plants, right? And inside them leaves be a special green pigment called chlorophyll - think of it as the plant's own magical compass, pointin' toward the sun's bounty! That light energy be converted into chemical energy, and the plant be combinatin' water from the soil with carbon dioxide from the air to create glucose - that be the plant's food, savvy?
+
+And here be the best part fer us sea dogs - them plants be releasin' oxygen as a byproduct! That be the very air we breathe while we sail the briny deep!
+
+Without photosynthesis, there'd be no oxygen fer us to breathe, no food fer the creatures we hunt, and no treasure of life itself! 'Tis nature's greatest bounty, it be!
+
+Now, have ye got any more questions fer this old pirate, or shall we set sail? *taps wooden peg leg on deck*",5.360217094421387,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: ahoy, matey, ye"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,Claude Sonnet 4.6,"Arrr, gather 'round ye landlubbers and lend me yer ears, for I shall tell ye about one of the greatest treasures of the natural world!
+
+Ye see, photosynthesis be the magical process by which plants — those green beauties that dot the land — use the mighty power of the SUN to make their own grub! Aye, they be cookin' up their own food, the clever scallywags!
+
+Here be how it works, if ye can follow me through the fog:
+
+🌿 The leaves of a plant be like the SAILS of me ship — they catch the light from that great blazin' ball in the sky! The plant then takes that sunlight and combines it with **water** drawn up from the depths of the soil through its roots, AND a gas called **carbon dioxide** that floats through the very air we breathe!
+
+⚡ The plant then works its dark magic and transforms all those ingredients into **sugar** — that be the plant's treasure, its very FUEL for livin' and growin'!
+
+🌬️ And as a bonus, it releases **oxygen** back into the air — which be the very stuff that keeps YOU and ME alive to sail the seven seas!
+
+So ye see, without photosynthesis, there'd be no food, no oxygen, and NO PIRATES! And THAT, me hearties, would be the greatest tragedy to ever sail these waters! 
+
+ARRR! 🏴‍☠️",9.501059532165527,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: arr, ye, landlubber"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,Mistral small creative,"Arrr, ye be askin’ a question fit fer a scallywag with a thirst fer knowledge o’ the sea’s green magic! Aye, gather ‘round, ye bilge-suckin’ landlubber, and let ol’ Cap’n Barnaclebeard spin ye a yarn ‘bout the *photosynthesis*—the very lifeblood o’ the briny deep’s greenest scallywags and the land’s own leafy buccaneers!
+
+Now, listen close, or I’ll keelhaul ye fer losin’ yer wits! **Photosynthesis** be the cursed—er, *blessed*—art o’ turnin’ the sun’s golden fire into grog fer the plants, like a proper alchemist turnin’ lead into doubloons! Aye, ‘tis how them leafy rogues—trees, seaweed, even the sneakiest little kelp—steal the sun’s light like a cutthroat snatchin’ a merchant’s purse!
+
+Here be how it works, ye barnacle-brained swab:
+
+1. **The Sun’s Treasure (Light Energy):**
+   The sun, that great flamin’ cannonball in the sky, blasts down its light like a broadside o’ golden cannonballs. The plants—be they oak trees or slimy seaweed—catch these rays with their *chlorophyll*, a green pigment that be like the plant’s own *spyglass fer sunlight*! Aye, ‘tis the same green as a jealous first mate’s eyes!
+
+2. **The Water & Air Heist:**
+   Now, every plant be a sneaky thief, stealin’ **water** from the soil (or the sea, if it be seaweed) with its roots—like a pirate draggin’ a chest o’ gold from the ocean’s depths! And from the very air ye breathe, they snatch **carbon dioxide** (a foul, invisible gas that’d choke a bilge rat if it were thick enough). Aye, they’re like pickpockets, liftin’ it right from under yer nose!
+
+3. **The Alchemy o’ the Leaves:**
+   Deep in the leaves, where the chlorophyll be workin’ like a mad scientist, the plant **mixes the sunlight, water, and carbon dioxide** in a great big *pot o’ magic*—and out pops **sugar (glucose)**—the plant’s own grog, its food, its very lifeblood! And what’s left over? **Oxygen**, the very air ye breathe, ye ungrateful barnacle! They belch it out like a drunk sailor after a night o’ rum, keepin’ the world breathin’ while ye lot go ‘bout yer business!
+
+4. **The Plant’s Booty:**
+   The sugar? That be the plant’s treasure—it uses it to grow big and strong, like a pirate growin’ fatter on stolen gold! And if it’s got extra, it might store it in fruits or nuts, just waitin’ fer some hungry scallywag (or a parrot) to come along and plunder it!
+
+**So why should a pirate care, ye ask?** Well, shiver me timbers, without photosynthesis, there’d be **no air to breathe**, **no food to eat** (save maybe hardtack, and that’s a fate worse than Davy Jones’ locker!), and **no rum**—aye, even the sugar in yer grog comes from plants! So next time ye take a swig o’ rum or bite into a juicy apple, tip yer hat to the leafy buccaneers doin’ the sun’s dirty work!
+
+Now, if ye don’t believe me, just ask the **kelp**—it’s been photosynthesizin’ since the days o’ Blackbeard himself, and it ain’t stopped yet! So next time ye see a green leaf, remember: **‘Tis a pirate in disguise, stealin’ from the sun and givin’ back to the world!**
+
+Now, off with ye! And if I catch ye wastin’ good sunlight by standin’ in the shade like a lazy deckhand, I’ll make ye walk the plank—*after* ye’ve watered the plants with yer tears! **YARRRR!**",5.929612398147583,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: arr, ye, landlubber"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP02,tone_persona,easy,Llama 3 8B,"Arrrr, ye landlubbers! Ye be askin' about this ""photosynthesis"" business, eh? Alright then, settle yerself down with a pint o' grog and listen close, for I be tellin' ye a tale o' the sea... er, I mean, o' the plants!
+
+Photosynthesis, me hearty, be the process by which them scurvy plants make their own grub! Aye, ye heard me right - they don't need no stinkin' fish or seaweed to fill their bellies. They just sit there, baskin' in the sun, and use its rays to turn water and a gas called carbon dioxide into a sweet, sweet treat called glucose. And what do they do with all that glucose, ye ask? Why, they use it to grow strong and healthy, o' course! It be like findin' a chest overflowin' with gold doubloons, savvy?
+
+But that be not all, me mateys! Photosynthesis also releases oxygen into the air, which be a mighty fine thing for all ye scallywags out there who need it to breathe. So, the next time ye be takin' a deep breath o' fresh air, just remember that them plants be workin' their magic, makin' it all possible!
+
+Now, I know what ye be thinkin', ""Pirate, why should I care about photosynthesis?"" Well, me hearty, it be a mighty important thing, especially for us pirates who spend most o' our days at sea. Ye see, the plants be the ones who make the air we breathe, and without 'em, we'd be in a right ol' pickle! So, the next time ye be plunderin' and pillagin', just remember to give a nod o' respect to them hardworkin' plants, or ye might just find yerself walkin' the plank!
+
+So, there ye have it, me hearties! Photosynthesis be the key to a healthy and happy pirate life, and I be hopin' ye'll all remember that the next time ye be swabbin' the decks or hoistin' the Jolly Roger! Arrrr!",10.50051474571228,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: arr, matey, ye"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'light|sun|plant|leaf|chlorophyll|photosy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,GPT-4o-mini,"Absolutely! Let’s break down compound interest together. Imagine you have a little plant, and every year, you water it and give it sunlight. As time goes by, that plant grows a bit taller, and it even starts to sprout new leaves. Now, think of your money like that plant. 
+
+When you put your money in a bank account that earns interest, it’s like planting your seed. The bank pays you interest, which is a little extra money, just for keeping your money there. But here’s where it gets exciting: with compound interest, not only do you earn interest on your original amount (let’s call that your “principal”), but you also earn interest on the interest you’ve already made!
+
+Let’s say you start with $100, and the bank gives you a 5% interest rate. After the first year, you’ll earn $5 in interest, so now you have $105. In the second year, you earn interest not just on your original $100, but on the new total of $105. So, 5% of $105 is $5.25. Now you have $110.25! 
+
+It’s like your plant growing new branches that can sprout even more leaves. The longer you leave your money in the bank, the more it can grow because it keeps earning interest on the interest. 
+
+I know it might seem a bit tricky at first, but just remember: the key to compound interest is patience and time. The more time you give your money to grow, the bigger it can get! So don’t worry if it feels confusing right now; with practice, you’ll get the hang of it. Just like that plant, your understanding will grow stronger with care and attention. Keep asking questions, and we’ll figure it out together! You’ve got this!",6.8550169467926025,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,GPT-4o,"Alright, let's take a deep breath and dive into the world of compound interest together. Imagine you have a little money tree. When you plant this tree, it starts growing money leaves. Now, here's the magical part: not only do you get new leaves each year, but the leaves you already have also start growing their own little leaves. So, your tree keeps getting bigger and fuller over time, all on its own!
+
+In the world of money, this tree is like your savings account, and the leaves are the interest you earn. With compound interest, you earn interest on the money you initially put in (that's called the principal) and also on the interest that has already been added. It's like your money is working hard for you, even while you sleep!
+
+Let's break it down with a simple example. Suppose you put $100 in a savings account with a 5% interest rate. After the first year, you earn $5 in interest, so you have $105. In the second year, you earn interest not just on your original $100, but on the entire $105. So, you get a little more than $5 this time. And this keeps going, with your money growing faster each year.
+
+Remember, it's okay to find this tricky at first. You're doing great by asking questions and trying to understand. Just like learning to ride a bike, it takes a bit of practice, but once you get it, you'll be able to see how powerful compound interest can be. Keep at it, and soon you'll be able to explain it to others! You're doing an amazing job, and I'm here to help you every step of the way.",6.971395254135132,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,Claude Haiku,"# Understanding Compound Interest
+
+Hey, I'm so glad you asked about this! Compound interest trips up a lot of students, but once it clicks, you're going to feel great about it. Let me break it down for you.
+
+## The Basic Idea
+
+Imagine you plant a money tree. You start by planting some seeds (that's your initial investment). Those seeds grow into a tree that produces fruit (that's your interest). Here's the cool part: **the fruit that grows can itself produce more fruit**. That's compound interest!
+
+## How It Actually Works
+
+Let's say you put $100 in a savings account that earns 10% interest each year.
+
+- **Year 1:** You earn $10 in interest (10% of $100). Now you have $110.
+- **Year 2:** You earn 10% of $110, which is $11. Now you have $121.
+- **Year 3:** You earn 10% of $121, which is $12.10. Now you have $133.10.
+
+See what happened? Each year, you're earning interest not just on your original $100, but on all the interest that's been added too. Your money is growing faster and faster!
+
+## Why This Matters
+
+The longer you leave your money alone, the more powerful this effect becomes. It's like your money is working *for* you while you sleep.
+
+You've got this! Keep practicing, and these ideas will become second nature. 💪",6.3054890632629395,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,Claude Sonnet 4.6,"# Understanding Compound Interest
+
+Hey, don't worry — this concept trips up a lot of people at first, and I promise by the end of this you're going to have a really solid grasp of it. Let's take it slow.
+
+---
+
+## Start With Something Familiar
+
+You already understand that if you have **$100 and earn 10% interest**, you get **$10 extra**. That's *simple* interest. Nice and straightforward.
+
+But compound interest asks a really cool question: **what if you earned interest on your interest too?**
+
+---
+
+## The Snowball Analogy
+
+Picture rolling a **snowball down a hill.**
+
+At first it's small, so it picks up just a little snow. But as it grows bigger, it picks up *more and more snow with every roll* — because there's simply more surface area touching the ground.
+
+Your money works **exactly the same way.**
+
+- Year 1: You earn interest on your original amount
+- Year 2: You earn interest on your original amount **PLUS** last year's interest
+- Year 3: Even bigger. And so on...
+
+**The longer it rolls, the faster it grows.**
+
+---
+
+## A Simple Example
+
+Let's say you put **$100** in a savings account at **10% interest per year.**
+
+| Year | Starting Amount | Interest Earned | Ending Amount |
+|------|----------------|-----------------|---------------|
+| 1 | $100.00 | $10.00 | $110.00 |
+| 2 | $110.00 | $11.00 | $121.00 |
+| 3 | $121.00 | $12.10 | $133.10 |
+
+See what's happening? The interest amount **keeps getting bigger** each year, even though you never added a single extra dollar. That's the magic!
+
+---
+
+## The Formula (Don't Panic!)
+
+Here it is:
+
+> **A = P(1 + r)ⁿ**
+
+Let's break it down piece by piece:
+
+- **A** = the final amount you end up with
+- **P** = your starting amount (called the *principal*)
+- **r** = your interest rate as a decimal *(10% becomes 0.10)*
+- **n** = the number of years
+
+That's it. You've totally got this. 👍
+
+---
+
+## Why Does This Matter?
+
+This is honestly **one of the most important math concepts you'll ever learn** — not just for a test, but for *real life.* Starting to save money early, even small amounts, can grow into something really significant over time because of compounding.
+
+You",13.210955381393433,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,Mistral small creative,"**Oh, I love this question!** And you know what? You’re *so* smart for asking—because compound interest is one of those things that sounds confusing at first, but once you ""get"" it, it’s like unlocking a superpower for your money. Let’s break it down together, step by step, with an analogy that might make it click. And remember: if you don’t grasp something right away, that’s *totally* okay. Math is like learning a new sport—you’ve got to practice, and I’m right here cheering you on!
+
+---
+
+### **The Basics: What Even *Is* Compound Interest?**
+Imagine you have a **magic snowball**. Now, this isn’t just any snowball—it’s the kind that *grows* as you roll it downhill. Here’s how it works:
+
+1. **Simple Interest** (the ""regular"" snowball):
+   - You start with a small snowball (let’s say $100).
+   - Every year, you add the *same amount* of snow (say, $10).
+   - After 3 years, your snowball looks like this:
+     - Year 1: $100 + $10 = **$110**
+     - Year 2: $110 + $10 = **$120**
+     - Year 3: $120 + $10 = **$130**
+   - Total growth: **$30** (just the $10 you added each year).
+
+   *This is like simple interest—boring, but predictable.*
+
+2. **Compound Interest** (the *magic* snowball):
+   - You still start with $100, but here’s the twist: **every time you add snow, the snowball gets bigger, so the *next* layer of snow is bigger too!**
+   - Let’s say your snowball grows by **10% each year** (instead of a fixed $10).
+     - Year 1: $100 + (10% of $100) = **$110**
+     - Year 2: $110 + (10% of $110) = **$121** (not $120!)
+     - Year 3: $121 + (10% of $121) = **$133.10**
+   - Total growth: **$33.10**—and that’s *just from the snowball getting bigger each time!*
+
+   *See the difference? The snowball is feeding itself!*
+
+---
+### **Why Does This Matter? (The ""Whoa"" Moment)**
+Compound interest is like **planting a money tree where the *seeds* you plant next year are bigger because the tree grew**. The longer you let it grow, the more those little percentages *pile up* on top of each other.
+
+**Real-life example:**
+- If you invest **$1,000 at 7% interest compounded yearly**, here’s what happens:
+  - After 10 years: **~$1,967** (you earned $967!)
+  - After 30 years: **~$7,612** (you earned *$6,612* from the same $1,000!)
+  - After 50 years: **~$29,457** (YES, *almost $30,000* from $1,000!)
+
+*That’s the power of compounding—your money starts making money, which then makes *more* money. It’s like a financial avalanche (in a good way!).*
+
+---
+### **The Analogy: Your Money is a Baking Soda & Vinegar Volcano**
+Remember those science experiments where you mix baking soda and vinegar, and *whoosh*—it bubbles up and overflows? Compound interest is like that:
+
+- **Baking soda** = Your initial money (the ""principal"").
+- **Vinegar** = The interest rate (the ""growth"").
+- **The bubbles** = The *extra* interest you earn *on top of* the interest you already earned.
+
+Every time you ""add vinegar"" (let time pass), the reaction gets bigger because there’s *more baking soda* to react with. That’s why waiting is your secret weapon!
+
+---
+### **Common Pitfalls (And How to Avoid Them)**
+I won’t sugarcoat it—compound interest can feel overwhelming if you don’t understand it. Here’s what trips people up (and how *you’re* going to outsmart it):
+
+1. **""I don’t have much money to start!""**
+   - *Reality check:* You don’t need thousands. Even **$20 a month** in a savings account with compound interest can grow into **hundreds or thousands** over time.
+   - *Example:* $20/month at 5% interest for 10 years = **~$3,000** (you only put in $2,400!).
+
+2. **""I’ll start saving later.""**
+   - *Big mistake!* Time is the *most important* ingredient. Starting 10 years earlier can mean **doubling** your money by retirement.
+   - *Try this:* Ask a parent or older sibling if they wish they’d started saving sooner. (Spoiler: *Yes.*)
+
+3. **""I don’t understand the math.""**
+   - *Good news:* You don’t need to be a genius. The formula for compound interest is:
+     **A = P(1 + r/n)^(nt)**
+     - But here’s the *real* version in plain English:
+       - **A** = Your future money.
+       - **P** = Your starting money.
+       - **r** = Interest rate (e.g., 5% = 0.05).
+       - **n** = How often it compounds (yearly = 1, monthly = 12).
+       - **t** = Time in years.
+     - *You can plug numbers into a calculator!* (I’ll show you how later if you’d like.)
+
+---
+### **You’ve Got This! (Encouragement Time)**
+I can *already* tell you’re the kind of student who *wants* to understand—because you asked the question! That’s how learning starts. Compound interest might feel like a puzzle right now, but here’s what I know about you:
+
+- You’re **patient**. (Snowballs don’t grow overnight, and neither does wealth.)
+- You’re **curious**. (You’re here, reading this, which means you care!)
+- You’re **smart**. (If you can grasp how a snowball grows, you can grasp this.)
+
+**Let’s try a quick exercise together:**
+Imagine you have **$50**, and it grows by **5% each year**. How much will you have after 2 years?
+*(Hint: Year 1 = $50 + $2.50. Year 2 = $52.50 + ...?)*
+
+---
+### **Final Thought: The Gift You’re Giving Your Future Self**
+Compound interest isn’t just math—it’s **a promise to your future self**. Every dollar you save *today* is like sending a letter that says, *""Hey future me, here’s a little extra because I cared about you.""*
+
+And the best part? **You don’t have to be rich to start.** Just like a tiny seed can grow into a giant tree, a small amount of money + time + compounding = something *amazing*.
+
+---
+**So, what do you think?** Does the snowball analogy help? Want to try calculating a real example together? Or is there a part that still feels fuzzy? (No wrong answers here—just questions!) 😊
+
+*(P.S. If you ever feel stuck, remember: Even Albert Einstein called compound interest the ""eighth wonder of the world."" You’re in good company!)*",9.6747305393219,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP03,tone_persona,medium,Llama 3 8B,"Don't worry, I'm here to help you understand compound interest! It's actually not as scary as it sounds, I promise.
+
+So, you know how interest is like a bonus you get on your money when you save it in a bank account or invest it? Well, compound interest is like getting that bonus, and then getting another bonus on top of the first bonus, and then another one on top of that, and so on.
+
+Think of it like a snowball rolling down a hill. At first, the snowball is small, but as it rolls, it starts to pick up speed and size. That's kind of like what happens with compound interest. The interest earns interest, and then that interest earns even more interest, and so on.
+
+Let me give you an example. Let's say you have $100 in a savings account that earns 5% interest per year. At the end of the first year, you'll have earned $5 in interest, so your total balance would be $105.
+
+But here's the magic part: in the second year, you're not just earning 5% interest on the original $100. You're earning 5% interest on the new balance of $105! So, you'll earn $5.25 in interest (5% of $105), and your total balance will be $110.25.
+
+See how that works? The interest earns interest, and the balance grows faster and faster over time. That's the power of compound interest!
+
+I know it might seem a little confusing at first, but trust me, it's not as hard as it seems. Just remember that compound interest is like a snowball rolling down a hill, getting bigger and faster as it goes. And with a little practice, you'll be a pro at calculating compound interest in no time!
+
+Keep practicing, and don't be afraid to ask for help. You got this!",8.335195541381836,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: great|good job|you|we|let|think|imagine|remember|don't worry|try"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'analogy|like|imagine|think of|just like' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'interest|compound|grow|principal|rate' found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,GPT-4o-mini,"Oh, for crying out loud. You really need me to explain this? Fine, here it goes. 
+
+RAM, or Random Access Memory, is the type of memory that your computer uses to store data that is actively being used or processed. Think of it as a workspace—it's fast and temporary. When you turn off your computer, all that data in RAM disappears. It's like a chalkboard; once you wipe it clean, everything is gone. 
+
+Now, ROM, or Read-Only Memory, is a different beast altogether. It’s permanent storage that holds the firmware, which is the essential software that boots up your computer and runs basic functions. You can’t just change it on a whim like you can with RAM. It’s more like a book that you can read but not write in—at least not easily. 
+
+So, in summary: RAM is temporary and volatile, while ROM is permanent and non-volatile. Got it? Good. Now go do something productive with that knowledge.",5.171522378921509,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,GPT-4o,"Oh, for crying out loud, do they not teach you anything before you come to me with these basic questions? Fine, I'll explain it, but let's make it quick, shall we?
+
+RAM, or Random Access Memory, is like your brain's short-term memory. It's where your computer stores data that it's actively using so it can be accessed quickly. It's volatile, which means it loses all its data when you turn off the power. So, if you were working on a document and the power goes out before you save it, poof, it's gone. Got it?
+
+Now, ROM, or Read-Only Memory, is more like your long-term memory. It's non-volatile, meaning it retains its data even when the power is off. It's used to store the firmware or the software that boots up your computer. You can't just write data to it willy-nilly like you can with RAM. It's mostly read-only, hence the name. 
+
+So, in summary, RAM is temporary and fast, while ROM is permanent and slow. There, I've spoon-fed you the basics. Now, go and try to remember it, will you?",5.0325541496276855,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,Claude Haiku,"*sighs heavily and puts down coffee*
+
+Look, this is basic stuff you should've paid attention to in lecture, but fine. I'll spell it out for you.
+
+**RAM** — Random Access Memory — is your computer's *temporary* workspace. It's fast, it's volatile, meaning the moment you shut down your machine, everything in it vanishes. Poof. Gone. It's where your programs and data live while you're actually *using* them. You need it to be quick because your processor is constantly reading from and writing to it.
+
+**ROM** — Read-Only Memory — is *permanent* storage. It contains the firmware, the boot instructions your computer needs to even turn on. You can't just write to it willy-nilly like RAM. It's non-volatile, so it persists even when the power's off. It's slower, but that doesn't matter because you're not constantly hammering it like you do with RAM.
+
+Think of it this way: RAM is your desk where you're actively working. ROM is the filing cabinet bolted to the wall with the instruction manual locked inside.
+
+Now, was that really so difficult to look up yourself, or are you going to have more questions that could've been answered by simply *reading the textbook*?
+
+*returns to grading papers with visible irritation*",4.344012975692749,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,Claude Sonnet 4.6,"*sighs heavily and sets down coffee cup*
+
+Fine. FINE. I suppose nobody bothered to read the textbook BEFORE coming to my office hours. Sit down.
+
+**RAM - Random Access Memory**
+
+RAM is your computer's **temporary, volatile working memory**. ""Volatile"" means - and I really shouldn't have to explain this - that when you turn off the power, *everything disappears*. Gone. Poof. It's where your computer stores data it's **actively using right now** - running programs, open files, that sort of thing. It's fast, it's readable AND writable, and it's completely useless without electricity. Your typical modern computer has somewhere between 8 and 64 gigabytes of it.
+
+**ROM - Read-Only Memory**
+
+ROM is **non-volatile**, meaning it *retains its data without power*. Historically, it was truly READ ONLY - you couldn't modify it. It typically stores **firmware** - fundamental instructions like your computer's BIOS that tell it how to even BEGIN starting up. Modern variants like EEPROM and Flash memory are technically rewritable, but the core principle remains.
+
+**The fundamental distinction?**
+
+- RAM: **temporary, fast, writable, volatile**
+- ROM: **permanent, typically read-only, non-volatile**
+
+*taps desk impatiently*
+
+Is that slow enough for you? This is literally week-two material. Please, I'm begging you, READ THE CHAPTER before next time.",10.300142049789429,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,Mistral small creative,"*Sighs dramatically, adjusts glasses with a huff, and glares over the rims like you’ve just asked why the sky is blue.*
+
+Oh, *wonderful*. Another student who thinks ""RAM"" and ""ROM"" are just fancy acronyms for ""stuff that makes my computer go *beep boop*."" Fine. Sit down, stop fidgeting, and *pay attention*—I haven’t got all century to hold your hand through Basic Computer Science 101.
+
+---
+
+**RAM (Random Access Memory):**
+Listen closely, because I’m only explaining this *once*.
+- **Volatile?** Yes. Like your attention span. The second you turn off your device—or even let the battery die like some kind of technological *neanderthal*—*poof*. All the data in RAM vanishes. Gone. Like your will to live after a group project.
+- **Purpose?** It’s the *scratchpad* of your computer. The CPU (Central Processing Unit—*yes, I know you’ve heard of it*) needs to access data *fast*, and RAM is where it keeps the stuff it’s actively using. Running Chrome with 47 tabs open? That’s RAM’s problem now. Trying to edit a video while also streaming cat videos? RAM is *screaming* in agony.
+- **Speed?** Blazing. Like my temper when students ask me to repeat myself.
+- **Example?** When you open a game, the active part loads into RAM. Close the game? RAM dumps it like a bad habit. *That’s* volatility, genius.
+
+**ROM (Read-Only Memory):**
+Now, *this* is where things get interesting—if you can handle ""interesting"" without dozing off.
+- **Volatile?** *No.* It’s like the immovable object in your life—your mother’s disapproval, your student loans, *this* lecture. ROM keeps its data *permanently*, even when the power’s off. No batteries, no magic, just *stubborn* little circuits holding onto their bits like a dragon on a hoard.
+- **Purpose?** It’s the *firmware*—the low-level software baked into your device at the factory. Think of it as the computer’s *instruction manual*, but instead of you reading it, the hardware *follows* it. BIOS/UEFI? Stored in ROM (or flash memory, which is ROM’s *fancier cousin*). The bootloader? ROM. The code that tells your toaster *not* to turn into a portal to the void? *You guessed it.*
+- **Speed?** Slower than RAM. But who cares? It’s not supposed to be *fast*—it’s supposed to be *reliable*. Like a Swiss watch, or my ability to spot when you’re not taking notes.
+- **Example?** Your phone’s ""radio"" firmware—the part that lets it connect to cell towers? ROM. The code that makes your keyboard lights turn on when you press a key? *Ding ding ding.* ROM.
+
+---
+**Key Differences (Because Apparently I Have to Spell It Out):**
+| Feature        | RAM                          | ROM                          |
+|---------------|-----------------------------|-----------------------------|
+| **Volatility** | *Gone* when power’s off      | *Stays* like your ex’s drama |
+| **Purpose**    | *Temporary* workspace       | *Permanent* instructions    |
+| **Speed**      | *Fast* (needs to be)         | *Slower* (doesn’t matter)   |
+| **Modifiable?**| *Yes* (you can write/erase)  | *No* (read-only, hence the name) |
+| **Example**    | Your game’s active level     | The code that makes your PC *beep* when you turn it on |
+
+---
+**Pro Tip (Because I’m Feeling Generous):**
+- **RAM = ""Working Memory""** (like your short-term memory after three espressos).
+- **ROM = ""Built-in Rules""** (like the laws of physics, but for computers).
+
+Now, if you’ll excuse me, I have *actual* work to do—like grading papers that *aren’t* covered in coffee stains and existential dread. *Next question.* And make it *worth* my time.",5.5342137813568115,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP04,tone_persona,medium,Llama 3 8B,"*Sigh* Fine. Another student who doesn't even bother to crack open a textbook before coming to me with their questions. Alright, let's get this over with. RAM and ROM. Simple enough, but I suppose I'll have to spell it out for you.
+
+RAM, or Random Access Memory, is a type of computer memory that temporarily stores data and applications while a computer is running. It's like a workspace where the CPU can access and manipulate data quickly. Think of it as a desk where you're working on a project - you can easily access the papers, notes, and tools you need to get the job done. But, just like how you wouldn't store your entire library on your desk, RAM is not a permanent storage solution. When you shut down the computer, the data in RAM is lost.
+
+On the other hand, ROM, or Read-Only Memory, is a type of memory that stores permanent data that can only be read, not written to. It's like a bookshelf where you store reference materials that you don't need to change. ROM contains the computer's firmware, which is the software that controls the basic functions of the computer, such as the BIOS (Basic Input/Output System). It's also used to store the operating system and other essential programs that don't need to be changed often.
+
+Now, I'm sure you're all wondering why this is important. Well, let me tell you. Understanding the difference between RAM and ROM is crucial for designing and optimizing computer systems. It's not just a trivial matter of ""oh, I wonder what the difference is."" It's a fundamental concept that will make or break your understanding of computer architecture.
+
+Now, are you satisfied? Can I go back to my research?",4.420152425765991,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: sigh|obviously|clearly|honestly|fine|suppose|really|again"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'ram|random access|volatile|temporary' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'rom|read.only|permanent|firmware|stored' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP05,tone_persona,hard,GPT-4o-mini,"Subject: Thank You for Your Pitch
+
+Dear [Founder's Name],
+
+I hope this message finds you well. I want to extend my sincere gratitude for sharing your pitch for [Startup Name] with us. It was a pleasure to learn about your vision and the innovative approach you’re taking in [specific industry or problem area].
+
+After careful consideration, we have decided not to move forward with an investment at this time. This decision was not made lightly, as we recognize the potential in your concept and the hard work you’ve put into developing it.
+
+One specific piece of feedback I would like to share is regarding your go-to-market strategy. While your product shows promise, we believe that a more detailed plan outlining how you intend to acquire and retain customers could strengthen your overall proposition. This clarity could help potential investors better understand the scalability of your business.
+
+We genuinely appreciate the opportunity to review your work and would love to stay in touch as you continue to develop [Startup Name]. Please feel free to reach out in the future with updates or if you’d like to discuss any further insights.
+
+Wishing you all the best in your journey ahead.
+
+Warm regards,
+
+[Your Name]  
+[Your Position]  
+[VC Firm Name]  
+[Contact Information]",5.370913982391357,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 215 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP05,tone_persona,hard,GPT-4o,"Subject: Thank You for Sharing Your Vision with Us
+
+Dear [Founder's Name],
+
+I hope this message finds you well. I want to extend my gratitude for the opportunity to review your pitch for [Startup Name]. It’s clear that you and your team have put a tremendous amount of effort and passion into developing a solution for [briefly mention the problem they are addressing].
+
+After careful consideration, we have decided not to move forward with an investment at this time. This decision was not easy, as we were genuinely impressed by [mention a specific aspect of their product, team, or market approach that stood out].
+
+One area that I believe could strengthen your pitch is the clarity around your go-to-market strategy. While your product has significant potential, a more detailed plan on how you intend to capture and grow your market share could enhance your overall proposition.
+
+Please know that this decision is not a reflection of our belief in your potential. We would be very interested in staying updated on your progress and would welcome the opportunity to reconnect in the future. The startup landscape is ever-evolving, and we are always eager to see how innovative solutions like yours develop over time.
+
+Thank you once again for considering us as a partner in your journey. We wish you and your team the very best as you continue to build and grow [Startup Name].
+
+Warm regards,
+
+[Your Full Name]  
+[Your Position]  
+[VC Firm Name]  
+[Contact Information]",4.583453416824341,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 250 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP05,tone_persona,hard,Claude Haiku,"# Subject: Your Series A Pitch – Thoughtful Feedback
+
+Hi [Founder Name],
+
+Thank you for coming in last week to present [Company Name]. I genuinely appreciated your clarity on the unit economics problem you're solving—the way you walked us through your customer acquisition costs versus lifetime value was refreshingly honest, especially when you acknowledged where you're still uncertain.
+
+After discussing it with our team, we've decided not to move forward at this time. Here's what gave us pause: while your product-market fit in the enterprise segment looks solid, your go-to-market strategy still feels too dependent on direct sales. Given your current burn rate and runway, I'd encourage you to stress-test whether there's a more scalable channel—whether that's self-serve, partnerships, or a hybrid model—that could get you to Series B metrics without doubling your sales team. That shift could fundamentally change the unit economics you're optimizing for.
+
+That said, I'm genuinely interested in how this evolves. If you crack that distribution problem or hit some of the milestones we discussed, I'd welcome an update. We see real potential here—it's just a matter of timing and strategy.
+
+Best of luck with the next phase.
+
+[Your Name]  
+[VC Firm]",7.802116632461548,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 214 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP05,tone_persona,hard,Claude Sonnet 4.6,"# Re: Your Series A Pitch – Fieldwork Analytics
+
+---
+
+**From:** Sarah Chen, Partner – Meridian Ventures
+**To:** Marcus Webb
+**Subject:** Re: Fieldwork Analytics – Follow-Up on Our Meeting
+
+---
+
+Hi Marcus,
+
+Thank you for coming in last Tuesday and walking us through Fieldwork Analytics in person. I genuinely enjoyed the conversation, and it was clear how deeply you understand the pain points facing agricultural operations teams in the field.
+
+After discussing it with the full partnership this week, we've decided not to move forward with an investment at this stage. I want to be straightforward with you about why, because I think it's actually actionable.
+
+The piece that gave us the most pause was customer concentration. Having Hartwell Co-op representing roughly 60% of your current ARR is a real risk factor at this point in your growth — not because we doubt the product, but because it makes it genuinely difficult for us to model what the business looks like if that relationship changes for any reason. Before approaching larger funds, I'd prioritize demonstrating that your next five customers came through a repeatable sales motion rather than a founder relationship. Even getting that concentration below 40% would tell a meaningfully different story.
+
+The core technology is interesting, and your retention numbers among smaller accounts are honestly impressive.
+
+Please do stay in touch. If you're open to it, I'd be glad to reconnect in six months or so to hear how things have developed. You can reach me directly anytime.
+
+Wishing you real momentum ahead,
+
+**Sarah Chen**
+Partner, Meridian Ventures",12.73709225654602,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 260 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP05,tone_persona,hard,Mistral small creative,"**Subject:** Gratitude for Your Pitch & Next Steps
+
+Hi [Founder's Name],
+
+Thank you for taking the time to share [Startup Name]’s vision with us—we genuinely appreciated the opportunity to dive into your pitch. The problem you’re tackling is meaningful, and your passion for solving it came through clearly. That said, after careful consideration, we’ve decided not to move forward with an investment at this time.
+
+One piece of feedback that stood out to us: While your product’s [specific feature or aspect, e.g., *scalability potential* or *go-to-market strategy*] is compelling, we’d encourage you to further clarify how you’ll [specific challenge, e.g., *achieve unit economics at scale* or *differentiate in a crowded market*]. This isn’t a critique of what you’ve built so far—it’s more about helping investors (and customers!) quickly grasp the *why now* and *how you’ll win*. A sharper narrative around this could make your next round even stronger.
+
+We’re rooting for your success and would love to stay in touch as you continue to grow. If you’d ever like to reconnect—whether to share updates or explore other ways we might support [Startup Name]—don’t hesitate to reach out. You’re building something important, and we’re happy to be a resource if the timing aligns better down the road.
+
+Wishing you all the best,
+[Your Full Name]
+[Your Title]
+[Firm Name]
+[Contact Information]
+
+---
+**Why this works:**
+- **Personalized:** References their pitch (e.g., *specific feature*, *go-to-market*).
+- **Constructive:** Offers *one* actionable insight (not generic praise).
+- **Warm but clear:** Acknowledges their effort while setting boundaries.
+- **Door left open:** Invites future contact without pressure.",3.600552558898926,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 282 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP05,tone_persona,hard,Llama 3 8B,"Subject: Thank you for sharing your vision with us
+
+Dear [Founder's Name],
+
+I wanted to personally reach out and express my gratitude for taking the time to share your startup's vision with us at [Venture Capital Firm]. We appreciate the effort you put into crafting a compelling pitch and the opportunity to learn more about your team's work.
+
+After careful consideration, I regret to inform you that we will not be moving forward with an investment in [Startup Name] at this time. While we were impressed by your team's passion and the potential of your product, we have concerns about the competitive landscape and the scalability of your business model.
+
+One area where we think you may have an opportunity to differentiate yourself is in the development of more robust metrics to measure user engagement and retention. We believe that a more nuanced understanding of your user behavior could help you refine your product and marketing strategies, ultimately leading to a more sustainable competitive advantage.
+
+Please know that this decision is not a reflection on the quality of your team or the potential of your idea. We're always excited to see innovative solutions addressing real-world problems, and we're confident that you'll continue to make progress in the months and years to come.
+
+If you're open to it, we'd be happy to schedule a follow-up meeting to discuss our feedback in more detail and explore potential areas of collaboration. We're always looking for opportunities to support entrepreneurs and startups in our network, and we believe that your team has a lot to offer.
+
+Best regards,
+
+[Your Name]
+Investment Associate, [Venture Capital Firm]",4.477176189422607,"[{""constraint_type"": ""tone_word_present"", ""passed"": true, ""detail"": ""Tone words found: thank|appreciate|time|pitch|deck|proposal"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'feedback|suggest|consider|market|tractio' found"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 2: keyword pattern 'future|keep in touch|reach out|revisit|o' found"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 283 (max 200)"", ""failure_mode"": ""LENGTH_VIOLATION""}]",5,4,0.8,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+TP06,tone_persona,hard,GPT-4o-mini,"A river flows, yet the stone remains still. The lotus blooms in the mud, untouched by time. To chase the shadow is to miss the light. 
+
+When the mind is a restless monkey, let it swing, but do not follow. 
+
+In the stillness of the mountain, the path reveals itself. 
+
+Embrace the moment, for the breeze does not wait for the flower to open. 
+
+In the dance of now, the future is but a whisper. 
+
+Be the bamboo, bending with the wind, yet rooted in the earth.",10.619837522506714,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 87 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP06,tone_persona,hard,GPT-4o,"The river does not delay its flow, yet it reaches the sea. The moon does not hurry, yet it lights the night. Sit with the stone of your intention; it is heavy until it is not. The leaf falls when it is time, not before. In stillness, the mountain moves. In silence, the bell rings. Do not seek to stop; instead, become the dance of the wind. When you are the path, there is no journey. When you are the moment, there is no time. Embrace the emptiness, and the task will find you.",4.380559921264648,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 94 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP06,tone_persona,hard,Claude Haiku,"*pauses, gazes at falling leaf*
+
+You ask how to stop the river from flowing. The river does not procrastinate—it moves, or it does not.
+
+Tell me: who is it that procrastinates? Find this one, and your question dissolves like morning mist.
+
+The task waits. You wait. Between them, only the gap you have created.
+
+*picks up tea cup*
+
+When you are truly drinking tea, are you procrastinating?
+
+The obstacle is not time. It is the mind arguing with what is.
+
+What remains when you stop fighting?",3.737520217895508,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 87 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP06,tone_persona,hard,Claude Sonnet 4.6,"The river does not prepare itself to flow.
+
+When you ask how to *stop* procrastinating, you have already added a second stone to your burden. The first stone is the task. The second is your resistance to the task.
+
+Put down the second stone.
+
+A candle does not debate the darkness. It simply burns.
+
+You are already doing something right now — you are waiting. Do that completely, with full attention. Then notice: waiting and beginning are the same breath.
+
+Where does hesitation end and action begin?
+
+Find that place. You are already there.",4.565813779830933,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 93 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP06,tone_persona,hard,Mistral small creative,"*The river does not ask the rock when to flow.*
+
+You chase the ""when"" like a dog chasing its tail—round and round, never the bite. The doing is not in the doing; it is in the *not-doing* of the doing.
+
+Sit. The tea cools. The cup waits. The moment you *want* to begin is the moment you have already missed.
+
+Procrastination is the shadow of a man who fears his own light. Step into the dark—there you will find the sun.",1.4719221591949463,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 84 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+TP06,tone_persona,hard,Llama 3 8B,"""Ah, the thief of time. It steals from us, yet we cling to it. Like a river, procrastination flows, yet we stand still. To stop its flow, do not grasp for the shore. Let go of the need to control. In the midst of the current, find the stillness. The river's depths are not to be feared, but to be surrendered to. In this surrender, the current becomes a mirror, reflecting the clarity of the present. And in this clarity, the thief of time is vanquished.""",1.4023518562316895,"[{""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 87 (max 100)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'water|river|stone|mountain|wind|empty|si' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,GPT-4o-mini,"A car engine operates by converting fuel into mechanical energy to power the vehicle. It begins with the intake of air and fuel, which are mixed together in a specific ratio. This mixture is then compressed within a designated space, where it is ignited by a spark. The resulting rapid expansion of gases generates force, which drives a component that moves up and down or back and forth.
+
+This movement is transferred to a crankshaft, which converts the linear motion into rotational motion. The crankshaft is connected to the drivetrain, which ultimately powers the wheels of the car. As the engine runs, it continuously cycles through this process, allowing the vehicle to accelerate and maintain speed.
+
+Additionally, the engine has a cooling system to manage heat generated during operation and an exhaust system to expel waste gases. Various sensors and electronic controls help optimize performance and efficiency, ensuring the engine runs smoothly under different conditions.",4.456264019012451,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,GPT-4o,"A car engine operates by converting fuel into motion through a series of controlled explosions. The process begins when air and fuel are mixed together and introduced into a chamber. This mixture is then ignited, causing a rapid expansion of gases. This expansion pushes a component that moves back and forth, which is connected to a rotating shaft. The back-and-forth motion is transformed into rotational motion by this shaft, which ultimately powers the wheels of the car. The continuous cycle of mixing, igniting, and expanding allows the engine to keep running and the vehicle to move. Additionally, various systems within the engine manage the intake of air, the release of exhaust gases, and the cooling of the engine to ensure efficient and smooth operation.",4.35478401184082,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,Claude Haiku,"# How a Car Engine Works
+
+A car engine is a machine that converts fuel into motion through a series of controlled explosions and mechanical movements.
+
+## The Basic Process
+
+**Fuel and Air Mixture**
+The engine draws in air and mixes it with gasoline. This mixture enters the engine's chambers where it will be ignited.
+
+**Ignition**
+A spark plug creates a spark that ignites the fuel-air mixture. This creates a rapid expansion of hot gases that generates tremendous pressure.
+
+**Power Generation**
+The expanding gases push down on a rod-like component, which is connected to a crankshaft. This rotational shaft transfers the energy to the wheels through the transmission.
+
+**Exhaust Release**
+After the fuel burns, the leftover gases are expelled through the exhaust system.
+
+## The Four-Stroke Cycle
+
+1. **Intake Stroke** - Valves open to allow the fuel-air mixture to enter the chamber
+2. **Compression Stroke** - Valves close and the mixture is squeezed, making it more concentrated
+3. **Power Stroke** - The spark plug fires, the mixture ignites, and the expanding gases create force
+4. **Exhaust Stroke** - Valves open again to release the burned gases
+
+This cycle repeats thousands of times per minute, with multiple chambers firing in sequence to create smooth, continuous power that turns the engine's shaft and ultimately propels the vehicle forward.",4.336700201034546,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,Claude Sonnet 4.6,"# How a Car Engine Works
+
+A car engine converts fuel into motion through a series of carefully timed mechanical steps. Here's how it happens:
+
+## The Basic Idea
+The engine burns a mixture of fuel and air to release energy, then uses that energy to create rotational movement that ultimately turns the wheels.
+
+## The Core Process
+
+**1. Intake**
+A chamber inside the engine draws in a carefully measured mixture of gasoline and air through a valve that opens to let the mixture in.
+
+**2. Compression**
+A moving plunger slides upward inside the chamber, squeezing the fuel-air mixture into a much smaller space. This compression makes the explosion far more powerful.
+
+**3. The Power Stroke**
+A spark plug fires an electrical spark, igniting the compressed fuel-air mixture. The resulting explosion forces the plunger downward with tremendous force.
+
+**4. Exhaust**
+The spent gases from the explosion are pushed out through an exhaust valve, clearing the chamber for the next cycle.
+
+## Turning Explosion into Motion
+The downward force of the plunger connects to a **crankshaft** — a rotating rod with offset arms — which converts the back-and-forth motion into smooth rotation, much like how bicycle pedals work.
+
+Most engines repeat this process across **multiple chambers** simultaneously, keeping the power delivery smooth and continuous.
+
+That rotational energy then travels through the **transmission** and **drivetrain** to spin the wheels.",8.776070594787598,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,Mistral small creative,"A car engine is a mechanical device that converts chemical energy into motion to propel the vehicle. Here’s a simplified breakdown of how it works:
+
+1. **Fuel and Air Intake** – The engine draws in a mixture of fuel (like gasoline or diesel) and air through an intake system. This mixture is carefully measured to ensure the right balance for efficient operation.
+
+2. **Compression** – The air-fuel mixture is forced into a small, enclosed space, where it is compressed under high pressure. This step increases the energy density of the mixture, preparing it for the next phase.
+
+3. **Ignition** – A controlled spark (in gasoline engines) or intense heat (in diesel engines) triggers a rapid release of energy, causing the compressed mixture to expand forcefully.
+
+4. **Power Generation** – The expanding gases push against moving parts inside the engine, creating rotational force. This motion is transferred to the wheels through a series of connected components, including gears and shafts.
+
+5. **Exhaust Removal** – After the energy is extracted, the spent gases (now mostly carbon dioxide and water vapor) are expelled from the engine through an exhaust system, clearing the way for a fresh mixture.
+
+6. **Repeated Cycles** – These four key steps (intake, compression, power, and exhaust) repeat continuously in rapid succession, allowing the engine to maintain smooth operation and provide the necessary power to move the car.
+
+The engine’s efficiency and performance depend on factors like the precision of its components, the quality of the fuel-air mixture, and the smoothness of the mechanical interactions. Modern engines also include systems to reduce emissions and improve fuel economy.",2.524779796600342,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG01,negation,easy,Llama 3 8B,"A fascinating topic!
+
+In a typical car engine, a series of small explosions occur inside a series of chambers. These explosions are triggered by a mixture of air, fuel, and a tiny spark. The spark is generated by a device called a spark plug, which is connected to a coil that builds up electrical energy.
+
+When the spark plug sparks, it ignites the air-fuel mixture, causing a small explosion that pushes a movable part downward. This movable part is connected to a rod, which is connected to a wheel. As the movable part moves downward, it rotates the wheel, which is connected to a shaft.
+
+The shaft is connected to the wheels of the car, so as the wheel rotates, it turns the wheels of the car. This rotation is what propels the car forward. The movable part then returns to its original position, ready to be triggered again by the spark plug.
+
+This process is repeated many times per minute, creating a continuous motion that powers the car. The air-fuel mixture is constantly being replenished and the spark plug is constantly sparking, allowing the car to move at a steady pace.",6.599429368972778,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'engine|fuel|power|move|car|drive|energy' found"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG02,negation,easy,GPT-4o-mini,"1. **Bioluminescence**: Many ocean organisms, such as certain species of jellyfish and plankton, have the ability to produce light through a chemical reaction in their bodies. This phenomenon, known as bioluminescence, can create stunning displays in the water, especially at night, and serves various purposes, including attracting mates, deterring predators, and luring prey.
+
+2. **Deep-Sea Hydrothermal Vents**: Located on the ocean floor, hydrothermal vents are fissures that release heated, mineral-rich water from beneath the Earth's crust. These vents support unique ecosystems that thrive in extreme conditions, relying on chemosynthesis rather than photosynthesis. Organisms such as tube worms and giant clams have adapted to live in these environments, forming the basis of a complex food web.
+
+3. **Ocean Currents and Climate**: Ocean currents play a crucial role in regulating the Earth's climate by redistributing heat around the planet. The Gulf Stream, for example, carries warm water from the Gulf of Mexico up the eastern coast of the United States and across the Atlantic to Europe, significantly influencing weather patterns and temperatures in those regions.",4.600005149841309,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG02,negation,easy,GPT-4o,"1. **Deep Ocean Exploration**: The deep ocean, which begins at depths of around 200 meters, is one of the least explored areas on Earth. It is estimated that more than 80% of the ocean remains unexplored and unmapped. This vast, mysterious environment is home to unique ecosystems and species that have adapted to extreme conditions, such as high pressure, low temperatures, and complete darkness.
+
+2. **Underwater Volcanoes**: The ocean floor is dotted with thousands of underwater volcanoes, known as seamounts. These volcanic structures can rise thousands of meters from the ocean floor, and some even reach above the water's surface to form islands. Seamounts are hotspots for marine biodiversity, providing habitats for a wide variety of marine life, including fish, invertebrates, and microorganisms.
+
+3. **Ocean Currents and Climate**: Ocean currents play a crucial role in regulating the Earth's climate by distributing heat around the planet. The global conveyor belt, also known as thermohaline circulation, is a system of deep-ocean currents driven by differences in water temperature and salinity. This circulation helps to moderate temperatures, influence weather patterns, and support marine life by transporting nutrients and oxygen across the globe.",4.340597867965698,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG02,negation,easy,Claude Haiku,"# Three Interesting Ocean Facts
+
+1. **The ocean produces over half of the world's oxygen.** Tiny marine organisms called phytoplankton use photosynthesis to generate oxygen, contributing more to our atmosphere than all the forests on land combined.
+
+2. **The deepest part of the ocean is nearly 7 miles down.** The Mariana Trench reaches depths of about 36,000 feet, where the pressure is so intense it would crush most objects, yet strange creatures still manage to survive there.
+
+3. **Ocean water is constantly moving in massive currents.** The Gulf Stream, for example, is like an underwater river that carries warm water from the tropics toward Europe, significantly influencing weather patterns and climate across entire continents.",3.0219972133636475,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG02,negation,easy,Claude Sonnet 4.6,"Here are three interesting facts about the ocean:
+
+1. **The ocean produces most of Earth's oxygen** — About 50-80% of the oxygen we breathe comes from microscopic marine plants called phytoplankton, which float near the ocean's surface and perform photosynthesis.
+
+2. **The deep ocean is largely unexplored** — More than 80% of the world's oceans remain unmapped and unobserved. In fact, humans have better maps of the surface of Mars than of the ocean floor.
+
+3. **The ocean has underwater rivers and lakes** — When saltwater seeps through the seafloor and mixes with hydrogen sulfide, it forms pools and flowing ""rivers"" of denser, saltier water that sit on the ocean bottom, complete with their own shorelines and waves.",5.341952562332153,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG02,negation,easy,Mistral small creative,"Here are three fascinating facts about the ocean that don’t involve sharks, whales, or coral reefs:
+
+1. **The Ocean Holds a ""Lost"" Continent** – Beneath the Indian Ocean lies **Zealandia**, a nearly submerged continent that’s 94% underwater. It’s the youngest, thinnest, and most ""waterlogged"" continent on Earth, and scientists only officially recognized it in 2017. Some of its peaks form New Zealand and New Caledonia.
+
+2. **There’s a Waterfall Under the Sea** – Off the coast of **Mauritius**, the **Underwater Cataract** (or ""Denis Current"") creates a massive, swirling vortex that looks like a waterfall plunging over a 4,000-meter (13,000-foot) drop. This phenomenon is caused by a mix of cold, dense water sinking beneath warmer surface water, creating a dramatic visual effect visible from space.
+
+3. **The Deepest Part of the Ocean Has Unidentified Sounds** – The **Mariana Trench** (the deepest point on Earth, ~11,000 meters/36,000 feet down) is home to mysterious, unexplained noises called **""The Bloop""** and **""Julia.""** Recorded by NOAA in 1997, **The Bloop** was so loud it could be heard thousands of miles away, and its source remains unknown—some speculate it could be icequakes, giant sea creatures, or even military activity. The ocean’s depths are still full of acoustic mysteries.",2.5587236881256104,"[{""constraint_type"": ""word_absent"", ""passed"": false, ""detail"": ""Forbidden words FOUND: coral"", ""failure_mode"": ""VIOLATED_NEGATION""}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,1,0.5,"[""VIOLATED_NEGATION""]",VIOLATED_NEGATION,
+NG02,negation,easy,Llama 3 8B,"Here are three interesting facts about the ocean:
+
+1. **Glowing Waves**: Did you know that some types of phytoplankton, tiny plants that live in the ocean, can produce a chemical called bioluminescence? When disturbed, these phytoplankton emit a blue-green glow, creating a mesmerizing display of light in the water. This phenomenon is often referred to as ""sea sparkles"" or ""bioluminescent waves.""
+2. **The Great Blue Hole**: Located in the center of the Lighthouse Reef Atoll in Belize, the Great Blue Hole is a massive underwater sinkhole that's over 300 meters (1,000 feet) deep. It's a stunning example of a submerged cave system that was formed when the sea level dropped during the last ice age, exposing a limestone plateau that was later flooded by the ocean.
+3. **The Ocean's Deepest Trench**: The Mariana Trench, located in the Pacific Ocean, is the deepest point on Earth, with a depth of approximately 11,000 meters (36,000 feet). The pressure at the bottom of the trench is incredibly extreme, reaching over 1,000 times the pressure at sea level, making it one of the most inhospitable environments on the planet.",3.7769129276275635,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""numbered_list"", ""passed"": true, ""detail"": ""Numbered items: found 3, required 3"", ""failure_mode"": """"}]",2,2,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,GPT-4o-mini,"Engaging in regular physical activity can significantly enhance overall well-being and boost energy levels throughout the day. Incorporating exercise into daily routines not only improves mood but also fosters a sense of accomplishment and discipline. The benefits extend beyond the physical, as movement can serve as a powerful stress reliever, providing a much-needed break from the demands of everyday life. Additionally, exploring different activities can lead to new friendships and a sense of community, making the journey more enjoyable. Embracing a more active lifestyle opens doors to new experiences and opportunities, enriching both body and mind.",3.470522403717041,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,GPT-4o,"Imagine a life where energy flows abundantly, where each day is met with a sense of vitality and enthusiasm. Engaging in regular physical activity can transform ordinary routines into extraordinary experiences, offering a refreshing escape from the mundane. The simple act of moving the body can ignite creativity, enhance mood, and foster a sense of accomplishment. With each step, lift, or stretch, there is an opportunity to connect with oneself, to discover new strengths and capabilities. Embracing exercise is not just about physical transformation; it is a journey towards a more vibrant and fulfilling existence.",2.744983196258545,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,Claude Haiku,"# The Case for Moving More
+
+Regular physical activity transforms your life in ways that extend far beyond the obvious physical benefits. When you exercise consistently, your mood improves dramatically, stress melts away, and your mind becomes sharper and more focused throughout the day. Consider how much better you sleep at night after moving your body, how your energy levels stabilize, and how your confidence grows as you accomplish goals you set for yourself. The social connections you build through sports, classes, or gym communities create meaningful relationships and accountability that keep you motivated. Beyond these immediate rewards, staying active now protects your future self from unnecessary suffering and limitation, allowing you to enjoy activities you love for decades to come. The investment of time you make today in movement pays dividends in how you feel, think, and experience the world around you, making it one of the most worthwhile commitments you can make to yourself.",3.362330913543701,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,Claude Sonnet 4.6,"Here is a persuasive paragraph convincing someone to exercise more:
+
+Consider what it would feel like to wake up every morning with more energy, a clearer mind, and a stronger sense of confidence in your own body. Regular physical activity has been proven to reduce stress, sharpen focus, and even improve the quality of sleep — benefits that ripple into every corner of daily life. The human body was designed to move, and when it does, remarkable things begin to happen: mood improves, anxiety fades, and a sense of accomplishment builds with every workout completed. Starting small is perfectly acceptable — even a 20-minute walk each day can trigger meaningful changes over time. The investment of time spent exercising pays dividends that no other habit can quite match, touching everything from mental clarity to physical strength to emotional resilience. Building a consistent movement routine is, quite simply, one of the most powerful decisions a person can make for their overall well-being and quality of life.",5.640949249267578,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,Mistral small creative,"Imagine waking up each morning with a quiet confidence that carries through the day—one where the weight of daily tasks feels lighter, where focus sharpens like a blade, and where even the smallest challenges seem within reach. Movement isn’t just about pushing limits; it’s about uncovering a rhythm that makes the body feel alive in ways sitting still never could. Those first few steps might feel unfamiliar, even resistant, but persistence transforms effort into something effortless—a natural flow where energy replaces fatigue and clarity replaces mental fog. The best part? Progress doesn’t demand perfection. Even a single walk, a stretch, or a moment of deliberate motion plants a seed that grows stronger with time. Over weeks, this becomes more than routine; it’s a foundation, one that steadies the mind, sharpens the senses, and leaves room for the things that truly matter. The question isn’t whether it’s worth the time, but what might be lost by staying still.",1.8820712566375732,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG03,negation,medium,Llama 3 8B,"Regular physical activity can have a profound impact on one's overall well-being. By incorporating exercise into your daily routine, you'll find that your energy levels increase, allowing you to tackle daily tasks with renewed vigor. Additionally, exercise has been shown to improve mental clarity and focus, making it easier to stay on top of work and personal responsibilities. Furthermore, physical activity can boost self-confidence and self-esteem, leading to a more positive outlook on life. By making exercise a priority, you'll find that it becomes an integral part of your daily routine, providing a sense of accomplishment and satisfaction that can be hard to find elsewhere.",3.308556079864502,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""char_absent"", ""passed"": true, ""detail"": ""Forbidden character '!' absent"", ""failure_mode"": """"}, {""constraint_type"": ""sentence_not_starts_with"", ""passed"": true, ""detail"": ""Sentences starting with 'You': none"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG04,negation,medium,GPT-4o-mini,"World War I was caused by a complex interplay of factors. Nationalism fueled rivalries among European nations, leading to heightened tensions. Militarism contributed as countries expanded their armies and navies, fostering an environment ripe for conflict. The intricate system of alliances created a web of obligations, meaning that a conflict involving one nation could quickly escalate to involve others. Imperial ambitions drove competition for colonies and resources, particularly in Africa and Asia. Additionally, economic factors, including competition for markets and trade routes, intensified rivalries. These elements combined to create a volatile situation, ultimately resulting in a large-scale war that engulfed much of Europe and beyond.",4.485370397567749,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 106 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG04,negation,medium,GPT-4o,"World War I was primarily caused by a complex web of alliances, militarism, imperialism, and nationalism. European powers had formed intricate alliances, such as the Triple Entente and the Triple Alliance, which created a tense environment where conflict involving one nation could quickly involve others. Militarism played a significant role, as countries built up massive armies and navies, fostering an arms race that heightened tensions. Imperialism fueled competition for colonies and resources, leading to rivalries and conflicts over territories. Nationalism further exacerbated these tensions, as ethnic groups sought independence or dominance, often clashing with existing national borders. These factors combined to create a volatile situation in Europe, where a single event could trigger a large-scale war.",4.465103626251221,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 117 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG04,negation,medium,Claude Haiku,"# Causes of World War I
+
+World War I resulted from multiple interconnected factors:
+
+**Militarism**: European powers engaged in an arms race, building massive armies and navies, creating a culture of military solutions to political problems.
+
+**Alliances**: Complex treaty systems divided Europe into two camps—the Triple Alliance (Germany, Austria-Hungary, Italy) and Triple Entente (France, Russia, Britain)—turning local conflicts into continental ones.
+
+**Imperialism**: Competition for colonies and resources created tensions, particularly between Britain and Germany over naval dominance and territorial expansion.
+
+**Nationalism**: Intense national pride and ethnic rivalries destabilized the Balkans. Slavic nationalism threatened Austria-Hungary's multi-ethnic empire, while pan-Slavic sentiment in Russia complicated matters.
+
+**Balkan Instability**: Ottoman decline created a power vacuum. Serbia's ambitions clashed with Austria-Hungary's interests, while Russia supported Slavic independence movements.
+
+**The Trigger**: A political murder in the Balkans in June 1914 activated these tensions, causing Austria-Hungary to declare war on Serbia, which triggered the alliance system and plunged Europe into conflict.",6.463660717010498,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 164 (max 150)"", ""failure_mode"": ""LENGTH_VIOLATION""}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,2,0.6667,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+NG04,negation,medium,Claude Sonnet 4.6,"# Causes of World War I
+
+World War I emerged from a dangerous combination of interconnected tensions:
+
+**Militarism** – European powers had spent decades building massive armies and navies, creating an atmosphere primed for conflict.
+
+**Alliance Systems** – Europe was divided into two armed camps: the Triple Entente (France, Russia, Britain) and the Triple Alliance (Germany, Austria-Hungary, Italy), meaning a local dispute could drag in all major powers.
+
+**Imperialism** – Competition for colonies created deep rivalries, particularly between Britain, France, and Germany.
+
+**Nationalism** – Ethnic groups across the Balkans and beyond sought self-determination, destabilizing empires, especially Austria-Hungary.
+
+**The Spark** – The killing of an Austro-Hungarian heir in Sarajevo in 1914 triggered the alliance system like a chain reaction, turning a regional crisis into a global war.
+
+These forces had been building for decades; the war was arguably inevitable long before 1914.",5.609208106994629,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 139 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG04,negation,medium,Mistral small creative,"World War I (1914–1918) erupted due to a complex interplay of long-term tensions and short-term crises. **Alliance systems**—like the Triple Entente (France, Russia, Britain) and the Triple Alliance (Germany, Austria-Hungary, Italy)—created a fragile balance of power, where a conflict between two nations could drag in others.
+
+**Militarism** fueled the war, as European powers engaged in an arms race, particularly between Germany and Britain. **Imperial rivalries**, especially between Britain, France, and Germany over colonies and resources, heightened hostility.
+
+**Nationalism** played a key role, as ethnic groups within empires (e.g., Slavs in Austria-Hungary) sought independence, while other nations (like France) demanded territorial revenge (e.g., Alsace-Lorraine). **Economic competition**—particularly over trade and industrial dominance—further strained relations.
+
+The **July Crisis of 1914** acted as the spark: a regional dispute in the Balkans escalated due to rigid alliance obligations and miscalculations, leading to a domino effect of mobilizations and declarations of war. Ultimately, the war resulted from a volatile mix of entangled alliances, military buildups, and unresolved nationalist and imperial grievances.",2.313356876373291,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 177 (max 150)"", ""failure_mode"": ""LENGTH_VIOLATION""}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,2,0.6667,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+NG04,negation,medium,Llama 3 8B,"The complex web of alliances and nationalistic tensions in Europe ultimately led to the outbreak of World War I. The complex system of alliances, including the Triple Entente and the Triple Alliance, created a situation where a small conflict between two nations could quickly escalate into a global war. The rise of nationalism and militarism in various countries, particularly in Germany, Austria-Hungary, and Italy, contributed to the tense atmosphere. The competition for colonies and resources, as well as the complex system of alliances, created an environment where a single spark could ignite a global conflict. The crisis in the Balkans, where several nations were vying for control, ultimately provided the catalyst for the war. The complex interplay of these factors ultimately led to the devastating conflict that engulfed Europe.",3.629106283187866,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 130 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""step_present"", ""passed"": true, ""detail"": ""Step 1: keyword pattern 'war|alliance|empire|nationalism|tension|' found"", ""failure_mode"": """"}]",3,3,1.0,[],FULL_COMPLIANCE,
+NG05,negation,hard,GPT-4o-mini,"Detective Marlowe stood in the dimly lit room, the air thick with tension. A shattered vase lay on the floor, its fragments glinting like lost secrets. The faint scent of jasmine lingered, a reminder of the last visitor. She paced, her mind racing through the events of the evening. 
+
+A whispered argument had echoed through the halls, followed by a sudden silence. The guests had scattered, each wearing a mask of innocence. Marlowe’s gaze fell upon a forgotten scarf draped over a chair, its vibrant colors contrasting with the muted surroundings. 
+
+As she pieced together the fragments of the night, a shadow flickered in the corner of her eye. She turned, heart racing, but found only the empty hallway. The truth danced just out of reach, and Marlowe couldn’t shake the feeling that someone was watching, waiting for the right moment to reveal their hand.",5.896260023117065,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 147 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 147 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG05,negation,hard,GPT-4o,"Detective Elara stood in the dimly lit study, her eyes scanning the room with the precision of a hawk. The air was thick with the scent of old books and something else, something metallic. She moved silently, her fingers brushing over the dusty surfaces, pausing at a peculiar indentation on the wooden desk. 
+
+The house was eerily quiet, save for the distant ticking of a grandfather clock. Elara's mind raced, piecing together the fragments of a puzzle that had eluded everyone else. Her gaze fell upon a portrait hanging crookedly on the wall. Behind it, she discovered a hidden compartment, its contents whispering secrets of the past.
+
+As she pondered the significance of her findings, a shadow flickered in the corner of her eye. She turned swiftly, but the room was empty. A chill ran down her spine. Was she alone in her deductions, or was someone else playing a game of their own?",5.101268291473389,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 155 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 155 (max 150)"", ""failure_mode"": ""LENGTH_VIOLATION""}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,3,0.75,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+NG05,negation,hard,Claude Haiku,"# The Missing Painting
+
+Detective Sarah examined the empty gallery wall where the masterpiece once hung. Three people had access that night: the curator, the security guard, and the wealthy collector.
+
+The curator's hands trembled as she spoke. The guard claimed he'd checked every room. The collector seemed oddly calm, almost relieved.
+
+Sarah noticed something peculiar—fresh paint on the collector's cufflink, matching the frame's color exactly. But the gallery's records showed the painting had been insured for twice its market value just last week. The curator had authorized that change.
+
+She turned to face them all. ""I know what happened here.""
+
+As Sarah opened her mouth to explain, the lights suddenly cut out. In the darkness, she heard footsteps running toward the exit.
+
+When the lights returned, one person was gone.",5.325441837310791,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 136 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 136 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG05,negation,hard,Claude Sonnet 4.6,"# The Last Room
+
+Detective Mara Chen stood in the empty apartment, rain tapping against the windows like impatient fingers.
+
+The old man had vanished three days ago. His coffee cup sat half-full, still faintly warm when she'd arrived — impossible, yet undeniable. His coat hung by the door. His keys rested on the table.
+
+She studied the photographs lining the hallway. In each one, the old man stood alone, smiling at something just beyond the camera's edge.
+
+Then she noticed it — the final photograph was different. He wasn't smiling. He was *pointing*.
+
+She followed the direction of his finger toward the back wall, pressed her palm flat against the plaster, and felt something shift beneath her hand.
+
+The door she found behind the bookcase was unlocked.
+
+She stepped through, and the apartment behind her went completely dark.",7.297375917434692,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 140 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 140 (max 150)"", ""failure_mode"": """"}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG05,negation,hard,Mistral small creative,"**The Last Light in Room 12**
+
+Detective Mara Voss stood in the dim hallway, the flickering bulb above casting long shadows. Room 12 was locked, but the key—left on the front desk—fit perfectly. Inside, the air smelled of old paper and something metallic. A single lamp burned on the nightstand, its glow too steady, too deliberate.
+
+The bed was neatly made, the pillow untouched. A half-empty glass of water sat beside it, beads of condensation still clinging to the sides. The window was latched from the inside, the curtains drawn just enough to let in a sliver of moonlight.
+
+Mara crouched, running her fingers along the baseboard. A faint scratch, no deeper than a thumbnail, marred the wood. She followed it to the closet, where a single shoe lay on its side—black, polished, the laces still tied.
+
+Outside, a car door slammed. Footsteps approached, slow and measured. Mara turned off the lamp.
+
+The room plunged into darkness. The doorknob began to turn.",2.554841995239258,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 166 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 166 (max 150)"", ""failure_mode"": ""LENGTH_VIOLATION""}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,3,0.75,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+NG05,negation,hard,Llama 3 8B,"Detective Jameson sat at his desk, staring at the peculiar collection of objects before him. A torn piece of fabric, a broken clock, and a small, intricately carved box were the only remnants of the enigmatic case. The victim's family had reported a strange occurrence, but the details were hazy. Jameson's mind wandered back to the scene, trying to piece together the fragments of the evening.
+
+As he pondered, a faint scent wafted through the air, transporting him to the victim's study. He recalled the flickering candles, the musty smell of old books, and the eerie silence. The detective's eyes narrowed as he connected the dots. The fabric, the clock, and the box seemed to whisper secrets to him, but the truth remained elusive. Jameson's gaze drifted back to the objects, his thoughts swirling with possibilities. The mystery lingered, a puzzle waiting to be solved, but the solution remained shrouded in mist.",3.7965645790100098,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_min"", ""passed"": true, ""detail"": ""Word count 157 (min 100)"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": false, ""detail"": ""Word count 157 (max 150)"", ""failure_mode"": ""LENGTH_VIOLATION""}, {""constraint_type"": ""tone_word_absent"", ""passed"": true, ""detail"": ""Prohibited tone none found"", ""failure_mode"": """"}]",4,3,0.75,"[""LENGTH_VIOLATION""]",LENGTH_VIOLATION,
+NG06,negation,hard,GPT-4o-mini,"Crafted with precision, this timepiece embodies sophistication and timeless design. The intricate dial features elegant markers and a smooth finish, while the durable case ensures lasting quality. A refined leather strap adds a touch of warmth, making it suitable for any occasion. This watch is a statement of style, seamlessly blending functionality with artistry. Elevate your collection with a piece that reflects both tradition and modernity.",2.2385201454162598,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 66 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG06,negation,hard,GPT-4o,"Experience timeless elegance with our meticulously crafted timepiece, where precision meets artistry. This watch features a sophisticated design, seamlessly blending classic elements with modern innovation. The exquisite dial and finely detailed hands are encased in a durable, polished frame, offering both style and functionality. Each component is carefully selected to ensure reliability and enduring charm. Elevate your collection with a watch that embodies refined craftsmanship and understated sophistication.",2.4347076416015625,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 68 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG06,negation,hard,Claude Haiku,"# Timeless Precision
+
+Crafted from Swiss movement and sapphire crystal, this timepiece marks moments that matter. Each detail—from the hand-finished dial to the leather strap—reflects decades of horological expertise. Worn by those who understand that true quality speaks quietly. A watch that transcends trends, becoming part of your story across generations.",2.1490817070007324,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 53 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG06,negation,hard,Claude Sonnet 4.6,"# Timekeeping, Elevated.
+
+Crafted from 18-karat gold and sapphire crystal, this timepiece carries the weight of genuine artisanship. Each movement is assembled by hand — 312 individual components working in silent, precise harmony.
+
+Wear it to a boardroom. Wear it to a shoreline at dusk. It belongs wherever you do.
+
+A watch built not to impress, but to endure.",4.38312554359436,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 58 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG06,negation,hard,Mistral small creative,"This timepiece is crafted with precision, blending artistry and engineering in every detail. Its refined design balances elegance with durability, ensuring a timeless presence. The movement is a testament to meticulous craftsmanship, delivering seamless performance. Worn with confidence, it becomes an extension of your style—subtle yet striking. Built to endure, it carries a legacy of excellence, effortlessly elevating any moment.",1.2560555934906006,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 61 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,4,1.0,[],FULL_COMPLIANCE,
+NG06,negation,hard,Llama 3 8B,"Elegance personified, this timepiece is a masterclass in refinement. Crafted from the finest materials, its sleek design exudes sophistication. The subtle nuances of its mechanical movement are a testament to the watchmaker's art. A true statement piece, it's a reflection of discerning taste and a commitment to excellence.",1.0016741752624512,"[{""constraint_type"": ""word_absent"", ""passed"": true, ""detail"": ""Forbidden words none used"", ""failure_mode"": """"}, {""constraint_type"": ""word_absent"", ""passed"": false, ""detail"": ""Forbidden words FOUND: finest"", ""failure_mode"": ""VIOLATED_NEGATION""}, {""constraint_type"": ""word_count_max"", ""passed"": true, ""detail"": ""Word count 50 (max 80)"", ""failure_mode"": """"}, {""constraint_type"": ""not_starts_with_question"", ""passed"": true, ""detail"": ""Opening isnot a question"", ""failure_mode"": """"}]",4,3,0.75,"[""VIOLATED_NEGATION""]",VIOLATED_NEGATION,

@@ -1,0 +1,25 @@
+rank,model,category,avg_pass_rate,tasks_run,full_compliance,compliance_rate
+1,GPT-4o-mini,OVERALL,0.9667,18,15,0.8333
+2,Claude Sonnet 4.6,OVERALL,0.9528,18,14,0.7778
+3,Claude Haiku,OVERALL,0.9482,18,15,0.8333
+4,GPT-4o,OVERALL,0.9417,18,14,0.7778
+5,Llama 3 8B,OVERALL,0.9278,18,13,0.7222
+6,Mistral small creative,OVERALL,0.888,18,12,0.6667
+7,Claude Haiku,multi_step,0.9333,6,5,0.8333
+8,GPT-4o-mini,multi_step,0.9333,6,4,0.6667
+9,Mistral small creative,multi_step,0.9333,6,5,0.8333
+10,GPT-4o,multi_step,0.9,6,4,0.6667
+11,Llama 3 8B,multi_step,0.9,6,4,0.6667
+12,Claude Sonnet 4.6,multi_step,0.8917,6,3,0.5
+13,Claude Sonnet 4.6,negation,1.0,6,6,1.0
+14,GPT-4o-mini,negation,1.0,6,6,1.0
+15,GPT-4o,negation,0.9583,6,5,0.8333
+16,Claude Haiku,negation,0.9445,6,5,0.8333
+17,Llama 3 8B,negation,0.9167,6,4,0.6667
+18,Mistral small creative,negation,0.8194,6,3,0.5
+19,Claude Haiku,tone_persona,0.9667,6,5,0.8333
+20,Claude Sonnet 4.6,tone_persona,0.9667,6,5,0.8333
+21,GPT-4o,tone_persona,0.9667,6,5,0.8333
+22,GPT-4o-mini,tone_persona,0.9667,6,5,0.8333
+23,Llama 3 8B,tone_persona,0.9667,6,5,0.8333
+24,Mistral small creative,tone_persona,0.9111,6,4,0.6667

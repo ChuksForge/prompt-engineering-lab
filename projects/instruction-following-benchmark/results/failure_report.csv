@@ -1,0 +1,21 @@
+model,failure_mode,count,pct_of_failures
+GPT-4o-mini,MISSED_STEP,1,33.3
+GPT-4o-mini,WRONG_FORMAT,1,33.3
+GPT-4o-mini,LENGTH_VIOLATION,1,33.3
+GPT-4o,MISSED_STEP,2,40.0
+GPT-4o,LENGTH_VIOLATION,2,40.0
+GPT-4o,WRONG_FORMAT,1,20.0
+Claude Haiku,LENGTH_VIOLATION,2,50.0
+Claude Haiku,WRONG_FORMAT,1,25.0
+Claude Haiku,MISSED_STEP,1,25.0
+Claude Sonnet 4.6,WRONG_FORMAT,3,75.0
+Claude Sonnet 4.6,LENGTH_VIOLATION,1,25.0
+Mistral small creative,LENGTH_VIOLATION,3,42.9
+Mistral small creative,WRONG_FORMAT,1,14.3
+Mistral small creative,MISSED_STEP,1,14.3
+Mistral small creative,WRONG_TONE,1,14.3
+Mistral small creative,VIOLATED_NEGATION,1,14.3
+Llama 3 8B,MISSED_STEP,2,33.3
+Llama 3 8B,LENGTH_VIOLATION,2,33.3
+Llama 3 8B,WRONG_FORMAT,1,16.7
+Llama 3 8B,VIOLATED_NEGATION,1,16.7

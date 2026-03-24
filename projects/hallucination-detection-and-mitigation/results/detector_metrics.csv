@@ -1,0 +1,4 @@
+detector,tp,fp,tn,fn,precision,recall,f1,accuracy,fpr
+rule_based,13,0,7,5,1.0,0.7222,0.8387,0.8,0.0
+entailment,13,1,6,5,0.9286,0.7222,0.8125,0.76,0.1429
+llm_judge,18,0,7,0,1.0,1.0,1.0,1.0,0.0

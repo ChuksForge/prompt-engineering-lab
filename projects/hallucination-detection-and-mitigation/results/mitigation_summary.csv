@@ -1,0 +1,4 @@
+strategy,total,success_rate,still_hallucinating,avg_improvement
+grounded_rewrite,8,1.0,0,0.9125
+self_critique,8,1.0,0,0.9125
+citation_enforced,8,1.0,0,0.9125

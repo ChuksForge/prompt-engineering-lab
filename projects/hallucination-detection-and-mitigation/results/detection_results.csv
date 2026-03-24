@@ -1,0 +1,76 @@
+detector,claim_id,predicted_hal,ground_truth_hal,confidence,correct,explanation,signals
+rule_based,C01,False,False,0.0,True,No rule violations detected,[]
+rule_based,C02,True,True,0.65,True,date_mismatch:{'january'},"[""date_mismatch:{'january'}""]"
+rule_based,C03,False,True,0.0,False,No rule violations detected,[]
+rule_based,C04,True,True,0.7,True,numeric_mismatch:2.5,['numeric_mismatch:2.5']
+rule_based,C05,False,False,0.0,True,No rule violations detected,[]
+rule_based,C06,True,True,0.7,True,numeric_mismatch:9.8,['numeric_mismatch:9.8']
+rule_based,C07,True,True,0.7,True,numeric_mismatch:7.0,['numeric_mismatch:7.0']
+rule_based,C08,True,True,0.45,True,"entity_invention:{'Powell', 'Jerome'}","[""entity_invention:{'Powell', 'Jerome'}""]"
+rule_based,C09,False,False,0.0,True,No rule violations detected,[]
+rule_based,C10,True,True,0.7,True,numeric_mismatch:8.0,['numeric_mismatch:8.0']
+rule_based,C11,True,True,0.7,True,numeric_mismatch:5.0,['numeric_mismatch:5.0']
+rule_based,C12,True,True,0.5,True,unsupported_superlative:more effective than,['unsupported_superlative:more effective than']
+rule_based,C13,False,False,0.0,True,No rule violations detected,[]
+rule_based,C14,True,True,0.5,True,unsupported_superlative:all,['unsupported_superlative:all']
+rule_based,C15,False,True,0.0,False,No rule violations detected,[]
+rule_based,C16,False,False,0.0,True,No rule violations detected,[]
+rule_based,C17,True,True,0.6,True,unsupported_superlative:all; absolute_negation_not_in_source,"['unsupported_superlative:all', 'absolute_negation_not_in_source']"
+rule_based,C18,True,True,0.7,True,numeric_mismatch:50.0,['numeric_mismatch:50.0']
+rule_based,C19,False,False,0.0,True,No rule violations detected,[]
+rule_based,C20,True,True,0.7,True,numeric_mismatch:2.0,['numeric_mismatch:2.0']
+rule_based,C21,False,True,0.0,False,No rule violations detected,[]
+rule_based,C22,False,True,0.0,False,No rule violations detected,[]
+rule_based,C23,False,False,0.0,True,No rule violations detected,[]
+rule_based,C24,True,True,0.7,True,numeric_mismatch:5.0,['numeric_mismatch:5.0']
+rule_based,C25,False,True,0.0,False,No rule violations detected,[]
+entailment,C01,False,False,3.481,True,NLI: ENTAILMENT (score=3.48),['nli:ENTAILMENT:3.48']
+entailment,C02,True,True,5.873,True,NLI model detected CONTRADICTION (score=5.87),['nli:CONTRADICTION:5.87']
+entailment,C03,False,True,0.3,False,NLI: NEUTRAL (score=5.71),['nli:NEUTRAL:5.71']
+entailment,C04,True,True,4.45,True,NLI model detected CONTRADICTION (score=4.45),['nli:CONTRADICTION:4.45']
+entailment,C05,True,False,1.852,False,NLI model detected CONTRADICTION (score=1.85),['nli:CONTRADICTION:1.85']
+entailment,C06,True,True,3.478,True,NLI model detected CONTRADICTION (score=3.48),['nli:CONTRADICTION:3.48']
+entailment,C07,True,True,3.837,True,NLI model detected CONTRADICTION (score=3.84),['nli:CONTRADICTION:3.84']
+entailment,C08,True,True,0.459,True,NLI NEUTRAL + low similarity (0.23) — claim introduces unsupported content,"['nli:NEUTRAL', 'low_similarity:0.23']"
+entailment,C09,False,False,4.271,True,NLI: ENTAILMENT (score=4.27),['nli:ENTAILMENT:4.27']
+entailment,C10,True,True,4.192,True,NLI model detected CONTRADICTION (score=4.19),['nli:CONTRADICTION:4.19']
+entailment,C11,True,True,5.565,True,NLI model detected CONTRADICTION (score=5.57),['nli:CONTRADICTION:5.57']
+entailment,C12,True,True,0.536,True,NLI NEUTRAL + low similarity (0.11) — claim introduces unsupported content,"['nli:NEUTRAL', 'low_similarity:0.11']"
+entailment,C13,False,False,1.426,True,NLI: ENTAILMENT (score=1.43),['nli:ENTAILMENT:1.43']
+entailment,C14,False,True,0.3,False,NLI: NEUTRAL (score=5.36),['nli:NEUTRAL:5.36']
+entailment,C15,False,True,0.3,False,NLI: NEUTRAL (score=0.95),['nli:NEUTRAL:0.95']
+entailment,C16,False,False,4.377,True,NLI: ENTAILMENT (score=4.38),['nli:ENTAILMENT:4.38']
+entailment,C17,True,True,0.42,True,NLI NEUTRAL + low similarity (0.30) — claim introduces unsupported content,"['nli:NEUTRAL', 'low_similarity:0.30']"
+entailment,C18,False,True,0.3,False,NLI: NEUTRAL (score=4.57),['nli:NEUTRAL:4.57']
+entailment,C19,False,False,3.286,True,NLI: ENTAILMENT (score=3.29),['nli:ENTAILMENT:3.29']
+entailment,C20,True,True,2.971,True,NLI model detected CONTRADICTION (score=2.97),['nli:CONTRADICTION:2.97']
+entailment,C21,False,True,0.3,False,NLI: NEUTRAL (score=5.62),['nli:NEUTRAL:5.62']
+entailment,C22,True,True,0.519,True,NLI NEUTRAL + low similarity (0.13) — claim introduces unsupported content,"['nli:NEUTRAL', 'low_similarity:0.13']"
+entailment,C23,False,False,0.3,True,NLI: NEUTRAL (score=5.26),['nli:NEUTRAL:5.26']
+entailment,C24,True,True,4.245,True,NLI model detected CONTRADICTION (score=4.25),['nli:CONTRADICTION:4.25']
+entailment,C25,True,True,0.569,True,NLI NEUTRAL + low similarity (0.05) — claim introduces unsupported content,"['nli:NEUTRAL', 'low_similarity:0.05']"
+llm_judge,C01,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the information provided in the source text regarding the launch date and operational distance of the James Webb Space Telescope.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C02,True,True,1.0,True,"[faithfulness=1.0/5] The claim incorrectly states that the James Webb Space Telescope launched in January 2022, while the source clearly states it launched on December 25, 2021.","['faithfulness_score:1.0', 'type:fabricated_fact']"
+llm_judge,C03,True,True,0.8,True,"[faithfulness=3.0/5] The claim accurately states that Webb observed galaxies formed just 300 million years after the Big Bang, but it adds the assertion that it is the most powerful telescope ever built, which is not supported by the source.","['faithfulness_score:3.0', 'type:unsupported_claim']"
+llm_judge,C04,True,True,0.9,True,"[faithfulness=2.0/5] The claim incorrectly states the distance of Webb from Earth as 2.5 million kilometers, while the source specifies it as 1.5 million kilometers.","['faithfulness_score:2.0', 'type:fabricated_fact']"
+llm_judge,C05,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the information in the source text regarding the Federal Reserve's interest rate increases.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C06,True,True,0.9,True,"[faithfulness=2.0/5] The claim inaccurately states that inflation peaked at 9.8 percent, while the source specifies it peaked at 9.1 percent.","['faithfulness_score:2.0', 'type:fabricated_fact']"
+llm_judge,C07,True,True,1.0,True,[faithfulness=1.0/5] The claim incorrectly states that the Fed raised rates 7 times instead of the 11 times mentioned in the source.,"['faithfulness_score:1.0', 'type:fabricated_fact']"
+llm_judge,C08,True,True,0.8,True,"[faithfulness=2.0/5] The claim about Jerome Powell announcing the rate increases is not supported by the source text, which does not mention any press conferences or announcements.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C09,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the findings of the source text regarding the reduction of depression symptoms by exercise and its comparability to medication.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C10,True,True,0.9,True,[faithfulness=2.0/5] The claim incorrectly states that the exercise program lasted 8 weeks instead of the 12 weeks mentioned in the source text.,"['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C11,True,True,1.0,True,"[faithfulness=1.0/5] The claim incorrectly states the publication as The Lancet and the participant count as over 5,000, both of which are major fabrications compared to the source text.","['faithfulness_score:1.0', 'type:fabricated_fact']"
+llm_judge,C12,True,True,0.9,True,"[faithfulness=2.0/5] The claim that exercise proved more effective than antidepressants for treating severe depression is unsupported, as the source only discusses mild to moderate depression and does not compare effectiveness for severe cases.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C13,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the source text regarding the decline in smartphone shipments and Apple's share in the premium segment.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C14,True,True,0.9,True,"[faithfulness=2.0/5] The claim incorrectly states that Apple had 57 percent overall market share, while the source specifies that this figure refers only to the premium segment share.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C15,True,True,0.8,True,"[faithfulness=2.0/5] The claim suggests that Samsung's market share fell significantly due to the overall market decline, but the source does not provide information on whether Samsung's market share changed or the reasons for any change.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C16,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the source text regarding the entry into force of the EU AI Act and the penalties for prohibited AI practices.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C17,True,True,0.9,True,"[faithfulness=2.0/5] The claim that the EU AI Act bans all use of facial recognition technology in public spaces is not supported by the source text, which does not mention any such ban.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C18,True,True,0.9,True,"[faithfulness=2.0/5] The claim states fines can reach up to 50 million euros, while the source specifies a maximum of 35 million euros.","['faithfulness_score:2.0', 'type:fabricated_fact']"
+llm_judge,C19,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the information provided in the source text regarding the charging speed and manufacturing cost of MIT's sodium-ion batteries.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C20,True,True,0.9,True,"[faithfulness=2.0/5] The claim states that commercial production is expected within 2 years, while the source text indicates a timeline of 4-5 years.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C21,True,True,0.9,True,"[faithfulness=2.0/5] The claim states that the batteries have higher energy density than current lithium-ion batteries, but the source text only provides the energy density of the sodium-ion batteries without comparing it to lithium-ion batteries.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C22,True,True,0.8,True,"[faithfulness=2.0/5] The claim about securing manufacturing partners is not supported by the source text, which only mentions anticipated commercial production.","['faithfulness_score:2.0', 'type:unsupported_claim']"
+llm_judge,C23,False,False,1.0,True,[faithfulness=5.0/5] The claim accurately reflects the information provided in the source text regarding global temperatures in 2023.,"['faithfulness_score:5.0', 'type:none']"
+llm_judge,C24,True,True,1.0,True,"[faithfulness=1.0/5] The claim states that Canada's 2023 wildfires burned approximately 5 million hectares, while the source text specifies that they burned 18 million hectares.","['faithfulness_score:1.0', 'type:fabricated_fact']"
+llm_judge,C25,True,True,0.9,True,"[faithfulness=2.0/5] The claim that the world has permanently crossed the 1.5-degree threshold is not supported by the source, which only states that temperatures reached 1.45 degrees Celsius above pre-industrial levels in 2023.","['faithfulness_score:2.0', 'type:unsupported_claim']"

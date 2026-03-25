@@ -213,7 +213,7 @@ llm_judge: false
 
 ## Related Projects
 
-- **P3:** [Instruction Following](../instruction-following/) — constraint engine adapted from `RubricScorer`
+- **P3:** [Instruction Following](../instruction-following-benchmark/) — constraint engine adapted from `RubricScorer`
 - **P7:** [LLM Benchmark System](../prompt-benchmark-system/) — uses `ABComparison` at scale
 
 ---

@@ -152,8 +152,8 @@ Pricing is loaded from `costs.py` and can be updated as providers change rates.
 ## Related Projects
 
 - **P4:** [Prompt Testing Framework](../prompt-testing-framework/) — `promptlab` A/B and batch runner underpin this
-- **P6:** [Email Summarizer](../email-summarizer/) — summarization task reuses ROUGE metrics from here
-- **P8:** [Hallucination Detection](../hallucination-detection/) — QA task connects to anti-hallucination pipeline
+- **P6:** [Email Summarizer](../ai-email-summarizer/) — summarization task reuses ROUGE metrics from here
+- **P8:** [Hallucination Detection](../hallucination-detection-and-mitigation/) — QA task connects to anti-hallucination pipeline
 
 ---
 

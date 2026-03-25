@@ -37,12 +37,12 @@ Systematic evaluation of summarization quality across **4 LLMs** and **10 prompt
 
 ### Key Findings
 
-- **Best combination:** Claude Sonnet 4.6 × P02 (zero_shot) — score: 0.648
-- **Best performing model overall:** Claude Haiku (avg: 0.546)
-- **Weakest model:** GPT-4o (avg: 0.514)
-- **Prompt engineering impact:** +24.9% vs zero-shot baseline
-- **Baseline zero-shot average:** 0.519
-- **Best score achieved:**        0.648
+- **Top configuration:** Claude Sonnet 4.6 with P02 (zero-shot) achieved the highest score (0.648)
+- **Best overall model:** Claude Haiku led in average performance (0.546)
+- **Lowest-performing model:** GPT-4o trailed with an average score of (0.514)
+- **Impact of prompt engineering:** Delivered a +24.9% improvement over the zero-shot baseline
+- **Zero-shot baseline (avg):** 0.519
+- **Peak score observed:** 0.648
 
 -----
 
@@ -172,7 +172,7 @@ All experiments are fully reproducible:
 
 ## Related Projects
 
-- **P3:** [Instruction Following Benchmark](../instruction-following/) — uses this project’s eval infrastructure
+- **P3:** [Instruction Following Benchmark](../instruction-following-benchmark/) — uses this project’s eval infrastructure
 - **P6:** [Prompt Testing Framework](../prompt-testing-framework/) — built from patterns discovered here
 - **P7:** [LLM Prompt Benchmark System](../prompt-benchmark-system/) — extends this into a full dashboard
 

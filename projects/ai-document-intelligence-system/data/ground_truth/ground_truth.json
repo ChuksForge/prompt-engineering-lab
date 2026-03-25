@@ -1,0 +1,177 @@
+{
+  "contract_service_agreement": {
+    "document_type": "contract",
+    "entities": {
+      "parties": ["Meridian Technologies Inc.", "CloudOps Solutions LLC"],
+      "signatories": ["Sarah Chen", "Marcus Rodriguez"],
+      "locations": ["Austin, Texas", "San Francisco, California"]
+    },
+    "dates": {
+      "effective_date": "January 15, 2024",
+      "expiration_date": "January 14, 2027",
+      "signature_date_client": "January 12, 2024",
+      "signature_date_provider": "January 13, 2024"
+    },
+    "monetary_values": {
+      "monthly_fee": "$12,500",
+      "annual_fee": "$150,000",
+      "late_payment_rate": "1.5% per month"
+    },
+    "key_facts": [
+      "3-year term with 90-day termination notice",
+      "99.9% uptime guarantee",
+      "10% service credits per hour of downtime breach",
+      "5-year confidentiality obligation post-termination",
+      "Liability capped at 12 months of fees",
+      "Delaware law governs; AAA arbitration"
+    ],
+    "contract_number": "SVC-2024-0847",
+    "qa_pairs": [
+      {"question": "What is the monthly service fee?", "answer": "$12,500"},
+      {"question": "What is the contract term?", "answer": "3 years"},
+      {"question": "What is the uptime guarantee?", "answer": "99.9%"},
+      {"question": "What law governs this agreement?", "answer": "Delaware"},
+      {"question": "What is the termination notice period?", "answer": "90 days"}
+    ]
+  },
+  "invoice_design_services": {
+    "document_type": "invoice",
+    "entities": {
+      "vendor": "Apex Design Studio",
+      "client": "Harrington & Associates Law Firm",
+      "client_contact": "Jennifer Walsh"
+    },
+    "dates": {
+      "invoice_date": "March 15, 2024",
+      "due_date": "April 14, 2024"
+    },
+    "monetary_values": {
+      "subtotal": "$48,700.00",
+      "sales_tax": "$4,322.13",
+      "total_due": "$53,022.13",
+      "deposit_paid": "$15,000.00",
+      "amount_now_due": "$38,022.13"
+    },
+    "line_items": [
+      {"description": "Brand Strategy & Identity Development", "amount": "$8,500.00"},
+      {"description": "Website Design (UI/UX)", "amount": "$14,200.00"},
+      {"description": "Website Development", "amount": "$11,800.00"},
+      {"description": "Content Writing", "amount": "$7,000.00"},
+      {"description": "Photography Coordination", "amount": "$2,200.00"},
+      {"description": "Project Management & Revisions", "amount": "$5,000.00"}
+    ],
+    "invoice_number": "INV-2024-03892",
+    "payment_terms": "Net 30",
+    "qa_pairs": [
+      {"question": "What is the total amount due?", "answer": "$53,022.13"},
+      {"question": "What is the outstanding balance?", "answer": "$38,022.13"},
+      {"question": "When is payment due?", "answer": "April 14, 2024"},
+      {"question": "Who is the client?", "answer": "Harrington & Associates Law Firm"},
+      {"question": "What was the deposit amount?", "answer": "$15,000.00"}
+    ]
+  },
+  "research_report_ai_productivity": {
+    "document_type": "research_report",
+    "entities": {
+      "authors": ["Dr. Amelia Foster", "Dr. James Okafor", "Dr. Yuki Tanaka"],
+      "institution": "Institute for Technology and Work, Stanford University",
+      "funder": "Alfred P. Sloan Foundation"
+    },
+    "dates": {
+      "publication_date": "February 28, 2024",
+      "study_period": "January 2023 to February 2024"
+    },
+    "key_metrics": {
+      "participants": "2,847",
+      "organizations": "143",
+      "study_duration": "14 months",
+      "avg_productivity_gain": "34%",
+      "writing_role_gain": "47%",
+      "analytical_role_gain": "21%",
+      "quality_improvement": "12%"
+    },
+    "key_facts": [
+      "Junior workers (0-2 years) showed 51% productivity gains",
+      "Senior workers (10+ years) showed only 18% productivity gains",
+      "23% of participants used AI less than 30 minutes per week despite access",
+      "AI training programs led to 2.3x higher adoption rates",
+      "Complex reasoning tasks showed quality degradation of -3%",
+      "63% cited accuracy concerns as adoption barrier"
+    ],
+    "qa_pairs": [
+      {"question": "How many participants were in the study?", "answer": "2,847"},
+      {"question": "What was the average productivity improvement?", "answer": "34%"},
+      {"question": "Who funded the research?", "answer": "Alfred P. Sloan Foundation"},
+      {"question": "How long was the study?", "answer": "14 months"},
+      {"question": "What was the quality improvement?", "answer": "12%"}
+    ]
+  },
+  "meeting_minutes_q1_roadmap": {
+    "document_type": "meeting_minutes",
+    "entities": {
+      "attendees": ["David Park", "Rachel Kim", "Tom Bradley", "Aisha Johnson", "Carlos Mendez", "Dr. Elena Vasquez", "James Liu"],
+      "absent": ["Michael Chen"]
+    },
+    "dates": {
+      "meeting_date": "March 8, 2024",
+      "next_meeting": "April 5, 2024"
+    },
+    "decisions": [
+      "Advanced Analytics Dashboard approved for Q2",
+      "Mobile iOS app approved for Q2, Android deferred to Q3",
+      "AI Recommendations Engine deferred to Q3",
+      "4 new hires approved ($580K annualized cost)",
+      "Q2 marketing budget $320,000 approved pending board sign-off"
+    ],
+    "key_metrics": {
+      "monthly_active_users": "847,000",
+      "monthly_recurring_revenue": "$3.2M",
+      "net_promoter_score": "62",
+      "customer_churn": "4.2%"
+    },
+    "qa_pairs": [
+      {"question": "What was the monthly recurring revenue?", "answer": "$3.2M"},
+      {"question": "What features were approved for Q2?", "answer": "Analytics Dashboard and Mobile iOS app"},
+      {"question": "What was the NPS score?", "answer": "62"},
+      {"question": "What was the headcount budget approved?", "answer": "$580K annualized"},
+      {"question": "Who was absent from the meeting?", "answer": "Michael Chen"}
+    ]
+  },
+  "financial_statement_novatech": {
+    "document_type": "financial_statement",
+    "entities": {
+      "company": "NovaTech Solutions, Inc.",
+      "auditor": "Deloitte & Touche LLP"
+    },
+    "dates": {
+      "period_end": "December 31, 2023",
+      "fiscal_year": "FY2023"
+    },
+    "monetary_values": {
+      "total_revenue_fy2023": "$206,061K",
+      "total_revenue_fy2022": "$160,279K",
+      "revenue_growth": "28.6%",
+      "net_income_fy2023": "$27,532K",
+      "net_income_fy2022": "$13,749K",
+      "net_income_growth": "100.2%",
+      "total_assets": "$225,445K",
+      "total_liabilities": "$95,721K",
+      "shareholders_equity": "$129,724K"
+    },
+    "key_ratios": {
+      "gross_margin": "65.4%",
+      "operating_margin": "17.6%",
+      "net_margin": "13.4%",
+      "current_ratio": "1.97",
+      "return_on_equity": "21.2%",
+      "eps_diluted": "$1.84"
+    },
+    "qa_pairs": [
+      {"question": "What was total revenue in FY2023?", "answer": "$206,061 thousand"},
+      {"question": "What was the revenue growth rate?", "answer": "28.6%"},
+      {"question": "What was the net income?", "answer": "$27,532 thousand"},
+      {"question": "Who is the auditor?", "answer": "Deloitte & Touche LLP"},
+      {"question": "What was the gross margin?", "answer": "65.4%"}
+    ]
+  }
+}

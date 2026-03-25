@@ -1,0 +1,24 @@
+# P9 — AI Document Intelligence System
+# pip install -r requirements.txt
+
+openai>=1.30.0
+anthropic>=0.28.0
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Demo UI
+gradio>=4.0.0
+
+# Optional: better PDF extraction
+# pypdf>=3.0.0
+
+# Optional: better DOCX extraction
+# python-docx>=0.8.11
+
+# Optional: dense embeddings for retrieval
+# sentence-transformers>=2.2.0
+
+jupyter>=1.0.0
+ipython>=8.0.0

@@ -1,0 +1,99 @@
+CONSOLIDATED FINANCIAL STATEMENTS
+
+Company: NovaTech Solutions, Inc.
+Period: Fiscal Year Ended December 31, 2023
+Currency: USD (thousands)
+Auditor: Deloitte & Touche LLP
+Audit Opinion: Unqualified
+
+CONSOLIDATED INCOME STATEMENT
+(in thousands USD)
+
+                                    FY2023          FY2022       Change
+Revenue
+  Product Revenue                  $142,847        $108,392      +31.8%
+  Service Revenue                   $63,214         $51,887      +21.8%
+  Total Revenue                    $206,061        $160,279      +28.6%
+
+Cost of Revenue
+  Cost of Product Revenue           $52,340         $43,218      +21.1%
+  Cost of Service Revenue           $18,964         $16,042      +18.2%
+  Total Cost of Revenue             $71,304         $59,260      +20.3%
+
+Gross Profit                       $134,757        $101,019      +33.4%
+Gross Margin                         65.4%           63.0%       +2.4pp
+
+Operating Expenses
+  Research & Development            $41,212         $34,056      +21.0%
+  Sales & Marketing                 $38,947         $32,114      +21.3%
+  General & Administrative          $18,332         $15,847      +15.7%
+  Total Operating Expenses          $98,491         $82,017      +20.1%
+
+Operating Income (EBIT)             $36,266         $19,002      +90.9%
+Operating Margin                     17.6%           11.9%       +5.7pp
+
+Interest Income                      $2,847          $1,203
+Interest Expense                    ($1,842)        ($2,107)
+Other Income (Expense), net           ($314)           $482
+
+Income Before Tax                   $36,957         $18,580
+Income Tax Expense                   $9,425          $4,831  (25.5% effective rate)
+Net Income                          $27,532         $13,749      +100.2%
+Net Margin                           13.4%            8.6%       +4.8pp
+
+Earnings Per Share (diluted)          $1.84           $0.93
+Weighted Average Shares (diluted) 14,963 thousand  14,784 thousand
+
+CONSOLIDATED BALANCE SHEET
+(in thousands USD, as of December 31)
+
+                                    FY2023          FY2022
+ASSETS
+Current Assets
+  Cash and Cash Equivalents        $48,234         $31,847
+  Short-term Investments           $22,100         $18,500
+  Accounts Receivable              $31,482         $24,713
+  Inventory                        $12,847         $11,203
+  Prepaid and Other                 $4,832          $3,941
+  Total Current Assets            $119,495         $90,204
+
+Non-Current Assets
+  Property & Equipment (net)       $42,318         $38,847
+  Intangible Assets (net)          $18,432         $21,047
+  Goodwill                         $34,000         $34,000
+  Long-term Investments            $11,200          $8,400
+  Total Non-Current Assets        $105,950        $102,294
+
+TOTAL ASSETS                      $225,445        $192,498
+
+LIABILITIES
+Current Liabilities
+  Accounts Payable                 $18,347         $15,892
+  Accrued Liabilities              $14,832         $12,473
+  Current Portion of Debt           $5,000          $5,000
+  Deferred Revenue                 $22,481         $19,347
+  Total Current Liabilities        $60,660         $52,712
+
+Non-Current Liabilities
+  Long-term Debt                   $25,000         $30,000
+  Deferred Tax Liabilities          $6,847          $5,932
+  Other Long-term Liabilities       $3,214          $2,847
+  Total Non-Current Liabilities    $35,061         $38,779
+
+TOTAL LIABILITIES                  $95,721         $91,491
+
+SHAREHOLDERS' EQUITY
+  Common Stock                        $150            $148
+  Additional Paid-in Capital       $74,832         $71,247
+  Retained Earnings                $54,742         $29,612
+  Total Shareholders' Equity      $129,724        $101,007
+
+TOTAL LIABILITIES AND EQUITY      $225,445        $192,498
+
+KEY FINANCIAL RATIOS
+  Current Ratio: 1.97
+  Quick Ratio: 1.76
+  Debt-to-Equity: 0.23
+  Return on Equity: 21.2%
+  Return on Assets: 12.2%
+  Days Sales Outstanding: 55.7 days

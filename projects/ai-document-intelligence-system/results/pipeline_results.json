@@ -1,0 +1,1115 @@
+[
+  {
+    "doc_id": "contract_service_agreement",
+    "filename": "contract_service_agreement.txt",
+    "word_count": 397,
+    "classification": {
+      "document_type": "contract",
+      "confidence": 0.95,
+      "secondary_type": "",
+      "routing_tags": [
+        "service agreement",
+        "managed services",
+        "cloud infrastructure"
+      ],
+      "summary": "This document is a service agreement between Meridian Technologies Inc. and CloudOps Solutions LLC for managed cloud infrastructure services.",
+      "language": "English"
+    },
+    "extraction": {
+      "document_id": "contract_service_agreement",
+      "entities": {
+        "people": [
+          "Sarah Chen",
+          "Marcus Rodriguez"
+        ],
+        "organizations": [
+          "Meridian Technologies Inc.",
+          "CloudOps Solutions LLC"
+        ],
+        "locations": [
+          "Austin, Texas",
+          "San Francisco, California"
+        ]
+      },
+      "dates": {
+        "Effective Date": "January 15, 2024",
+        "Expiration Date": "January 14, 2027",
+        "Signature Date (Meridian Technologies Inc.)": "January 12, 2024",
+        "Signature Date (CloudOps Solutions LLC)": "January 13, 2024"
+      },
+      "monetary_values": [
+        {
+          "label": "Monthly service fee",
+          "amount": "12500",
+          "currency": "USD"
+        },
+        {
+          "label": "Annual fees",
+          "amount": "150000",
+          "currency": "USD"
+        }
+      ],
+      "key_facts": [
+        "Agreement duration is three years with automatic renewal for one-year terms.",
+        "Provider guarantees 99.9% uptime for all monitored systems.",
+        "Confidentiality obligation lasts for five years post-termination.",
+        "Provider's liability is limited to total fees paid in the preceding twelve months."
+      ],
+      "action_items": [
+        {
+          "action": "Provide notice of non-renewal",
+          "owner": "Either party",
+          "due_date": "Sixty days prior to expiration"
+        },
+        {
+          "action": "Terminate Agreement",
+          "owner": "Either party",
+          "due_date": "Ninety days written notice"
+        }
+      ],
+      "tables": [],
+      "raw_json": {
+        "entities": {
+          "people": [
+            "Sarah Chen",
+            "Marcus Rodriguez"
+          ],
+          "organizations": [
+            "Meridian Technologies Inc.",
+            "CloudOps Solutions LLC"
+          ],
+          "locations": [
+            "Austin, Texas",
+            "San Francisco, California"
+          ]
+        },
+        "dates": {
+          "Effective Date": "January 15, 2024",
+          "Expiration Date": "January 14, 2027",
+          "Signature Date (Meridian Technologies Inc.)": "January 12, 2024",
+          "Signature Date (CloudOps Solutions LLC)": "January 13, 2024"
+        },
+        "monetary_values": [
+          {
+            "label": "Monthly service fee",
+            "amount": "12500",
+            "currency": "USD"
+          },
+          {
+            "label": "Annual fees",
+            "amount": "150000",
+            "currency": "USD"
+          }
+        ],
+        "key_facts": [
+          "Agreement duration is three years with automatic renewal for one-year terms.",
+          "Provider guarantees 99.9% uptime for all monitored systems.",
+          "Confidentiality obligation lasts for five years post-termination.",
+          "Provider's liability is limited to total fees paid in the preceding twelve months."
+        ],
+        "action_items": [
+          {
+            "action": "Provide notice of non-renewal",
+            "owner": "Either party",
+            "due_date": "Sixty days prior to expiration"
+          },
+          {
+            "action": "Terminate Agreement",
+            "owner": "Either party",
+            "due_date": "Ninety days written notice"
+          }
+        ]
+      }
+    },
+    "qa": [
+      {
+        "question": "What is the monthly service fee?",
+        "answer": "The monthly service fee is $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. [Source2]",
+        "citations": [
+          "3. COMPENSATION Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rat",
+          "SERVICE AGREEMENT Contract Number: SVC-2024-0847\nEffective Date: January 15, 2024\nExpiration Date: January 14, 2027 PARTIES This Service Agreement (\"Agreement\") is entered into as of the Effective Dat"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What is the contract term?",
+        "answer": "The contract term is three (3) years. (Source2)",
+        "citations": [
+          "3. COMPENSATION Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rat",
+          "SERVICE AGREEMENT Contract Number: SVC-2024-0847\nEffective Date: January 15, 2024\nExpiration Date: January 14, 2027 PARTIES This Service Agreement (\"Agreement\") is entered into as of the Effective Dat"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What is the uptime guarantee?",
+        "answer": "The uptime guarantee is 99.9% for all monitored systems. (Source1 [4. SERVICE LEVEL AGREEMENT])",
+        "citations": [
+          "3. COMPENSATION Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rat",
+          "SERVICE AGREEMENT Contract Number: SVC-2024-0847\nEffective Date: January 15, 2024\nExpiration Date: January 14, 2027 PARTIES This Service Agreement (\"Agreement\") is entered into as of the Effective Dat"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What law governs this agreement?",
+        "answer": "The law that governs this agreement is the laws of the State of Delaware. (Source1 [6. LIABILITY LIMITATION])",
+        "citations": [
+          "7. GOVERNING LAW This Agreement shall be governed by the laws of the State of Delaware. Any disputes shall be resolved through binding arbitration in accordance with the rules of the American Arbitrat",
+          "3. COMPENSATION Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rat"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What is the termination notice period?",
+        "answer": "The termination notice period is ninety (90) days. (Source1)",
+        "citations": [
+          "SERVICE AGREEMENT Contract Number: SVC-2024-0847\nEffective Date: January 15, 2024\nExpiration Date: January 14, 2027 PARTIES This Service Agreement (\"Agreement\") is entered into as of the Effective Dat",
+          "3. COMPENSATION Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rat"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      }
+    ],
+    "chunks": 3,
+    "latency_s": {
+      "classify": 3.2,
+      "extract": 6.58,
+      "index": 46.01,
+      "qa": 73.91
+    },
+    "model": "GPT-4o-mini"
+  },
+  {
+    "doc_id": "financial_statement_novatech",
+    "filename": "financial_statement_novatech.txt",
+    "word_count": 469,
+    "classification": {
+      "document_type": "financial_statement",
+      "confidence": 0.95,
+      "secondary_type": "",
+      "routing_tags": [
+        "financial report",
+        "income statement",
+        "balance sheet"
+      ],
+      "summary": "This document presents the consolidated financial statements of NovaTech Solutions, Inc. for the fiscal year ended December 31, 2023.",
+      "language": "English"
+    },
+    "extraction": {
+      "document_id": "financial_statement_novatech",
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NovaTech Solutions, Inc.",
+          "Deloitte & Touche LLP"
+        ],
+        "locations": []
+      },
+      "dates": {
+        "fiscal_year_ended": "December 31, 2023"
+      },
+      "monetary_values": [
+        {
+          "label": "Total Revenue FY2023",
+          "amount": "206061",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Revenue FY2022",
+          "amount": "160279",
+          "currency": "USD"
+        },
+        {
+          "label": "Net Income FY2023",
+          "amount": "27532",
+          "currency": "USD"
+        },
+        {
+          "label": "Net Income FY2022",
+          "amount": "13749",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Assets FY2023",
+          "amount": "225445",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Assets FY2022",
+          "amount": "192498",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Liabilities FY2023",
+          "amount": "95721",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Liabilities FY2022",
+          "amount": "91491",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Shareholders' Equity FY2023",
+          "amount": "129724",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Shareholders' Equity FY2022",
+          "amount": "101007",
+          "currency": "USD"
+        },
+        {
+          "label": "Earnings Per Share (diluted) FY2023",
+          "amount": "1.84",
+          "currency": "USD"
+        },
+        {
+          "label": "Earnings Per Share (diluted) FY2022",
+          "amount": "0.93",
+          "currency": "USD"
+        }
+      ],
+      "key_facts": [
+        "Audit Opinion: Unqualified",
+        "Gross Profit FY2023: $134,757 (65.4% margin)",
+        "Operating Income FY2023: $36,266 (17.6% margin)",
+        "Net Margin FY2023: 13.4%",
+        "Current Ratio: 1.97",
+        "Debt-to-Equity: 0.23"
+      ],
+      "action_items": [],
+      "tables": [],
+      "raw_json": {
+        "entities": {
+          "people": [],
+          "organizations": [
+            "NovaTech Solutions, Inc.",
+            "Deloitte & Touche LLP"
+          ],
+          "locations": []
+        },
+        "dates": {
+          "fiscal_year_ended": "December 31, 2023"
+        },
+        "monetary_values": [
+          {
+            "label": "Total Revenue FY2023",
+            "amount": "206061",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Revenue FY2022",
+            "amount": "160279",
+            "currency": "USD"
+          },
+          {
+            "label": "Net Income FY2023",
+            "amount": "27532",
+            "currency": "USD"
+          },
+          {
+            "label": "Net Income FY2022",
+            "amount": "13749",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Assets FY2023",
+            "amount": "225445",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Assets FY2022",
+            "amount": "192498",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Liabilities FY2023",
+            "amount": "95721",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Liabilities FY2022",
+            "amount": "91491",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Shareholders' Equity FY2023",
+            "amount": "129724",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Shareholders' Equity FY2022",
+            "amount": "101007",
+            "currency": "USD"
+          },
+          {
+            "label": "Earnings Per Share (diluted) FY2023",
+            "amount": "1.84",
+            "currency": "USD"
+          },
+          {
+            "label": "Earnings Per Share (diluted) FY2022",
+            "amount": "0.93",
+            "currency": "USD"
+          }
+        ],
+        "key_facts": [
+          "Audit Opinion: Unqualified",
+          "Gross Profit FY2023: $134,757 (65.4% margin)",
+          "Operating Income FY2023: $36,266 (17.6% margin)",
+          "Net Margin FY2023: 13.4%",
+          "Current Ratio: 1.97",
+          "Debt-to-Equity: 0.23"
+        ],
+        "action_items": []
+      }
+    },
+    "qa": [
+      {
+        "question": "What was total revenue in FY2023?",
+        "answer": "Total revenue in FY2023 was $206,061 (thousands USD) [Source1].",
+        "citations": [
+          "CONSOLIDATED FINANCIAL STATEMENTS Company: NovaTech Solutions, Inc. Period: Fiscal Year Ended December 31, 2023\nCurrency: USD (thousands)\nAuditor: Deloitte & Touche LLP\nAudit Opinion: Unqualified CONS",
+          "Operating Income (EBIT)             $36,266         $19,002      +90.9%\nOperating Margin                     17.6%           11.9%       +5.7pp Interest Income                      $2,847          $1,"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the revenue growth rate?",
+        "answer": "The revenue growth rate was +28.6%. (Source1)",
+        "citations": [
+          "CONSOLIDATED FINANCIAL STATEMENTS Company: NovaTech Solutions, Inc. Period: Fiscal Year Ended December 31, 2023\nCurrency: USD (thousands)\nAuditor: Deloitte & Touche LLP\nAudit Opinion: Unqualified CONS",
+          "Operating Income (EBIT)             $36,266         $19,002      +90.9%\nOperating Margin                     17.6%           11.9%       +5.7pp Interest Income                      $2,847          $1,"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the net income?",
+        "answer": "Net income was $27,532 (thousands USD) for the fiscal year ended December 31, 2023. [Source2]",
+        "citations": [
+          "CONSOLIDATED FINANCIAL STATEMENTS Company: NovaTech Solutions, Inc. Period: Fiscal Year Ended December 31, 2023\nCurrency: USD (thousands)\nAuditor: Deloitte & Touche LLP\nAudit Opinion: Unqualified CONS",
+          "Operating Income (EBIT)             $36,266         $19,002      +90.9%\nOperating Margin                     17.6%           11.9%       +5.7pp Interest Income                      $2,847          $1,"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "Who is the auditor?",
+        "answer": "The auditor is Deloitte & Touche LLP. (Source1)",
+        "citations": [
+          "CONSOLIDATED FINANCIAL STATEMENTS Company: NovaTech Solutions, Inc. Period: Fiscal Year Ended December 31, 2023\nCurrency: USD (thousands)\nAuditor: Deloitte & Touche LLP\nAudit Opinion: Unqualified CONS",
+          "TOTAL ASSETS                      $225,445        $192,498 LIABILITIES\nCurrent Liabilities\n  Accounts Payable                 $18,347         $15,892\n  Accrued Liabilities              $14,832        "
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the gross margin?",
+        "answer": "The gross margin was 65.4%. (Source2)",
+        "citations": [
+          "Operating Income (EBIT)             $36,266         $19,002      +90.9%\nOperating Margin                     17.6%           11.9%       +5.7pp Interest Income                      $2,847          $1,",
+          "CONSOLIDATED FINANCIAL STATEMENTS Company: NovaTech Solutions, Inc. Period: Fiscal Year Ended December 31, 2023\nCurrency: USD (thousands)\nAuditor: Deloitte & Touche LLP\nAudit Opinion: Unqualified CONS"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      }
+    ],
+    "chunks": 3,
+    "latency_s": {
+      "classify": 2.39,
+      "extract": 8.99,
+      "index": 6.79,
+      "qa": 87.1
+    },
+    "model": "GPT-4o-mini"
+  },
+  {
+    "doc_id": "invoice_design_services",
+    "filename": "invoice_design_services.txt",
+    "word_count": 314,
+    "classification": {
+      "document_type": "invoice",
+      "confidence": 1.0,
+      "secondary_type": "",
+      "routing_tags": [
+        "billing",
+        "finance",
+        "services"
+      ],
+      "summary": "This document is an invoice detailing services rendered by Apex Design Studio to Harrington & Associates Law Firm for a website redesign and brand identity refresh.",
+      "language": "English"
+    },
+    "extraction": {
+      "document_id": "invoice_design_services",
+      "entities": {
+        "people": [
+          "Jennifer Walsh"
+        ],
+        "organizations": [
+          "Apex Design Studio",
+          "Harrington & Associates Law Firm"
+        ],
+        "locations": [
+          "New York, NY 10012",
+          "New York, NY 10022"
+        ]
+      },
+      "dates": {
+        "invoice_date": "March 15, 2024",
+        "due_date": "April 14, 2024",
+        "contract_date": "February 1, 2024",
+        "deposit_date": "February 5, 2024"
+      },
+      "monetary_values": [
+        {
+          "label": "Brand Strategy & Identity Development",
+          "amount": "8500.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Website Design (UI/UX)",
+          "amount": "14200.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Website Development",
+          "amount": "11800.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Content Writing",
+          "amount": "7000.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Photography Coordination",
+          "amount": "2200.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Project Management & Revisions",
+          "amount": "5000.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Subtotal",
+          "amount": "48700.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Sales Tax",
+          "amount": "4322.13",
+          "currency": "USD"
+        },
+        {
+          "label": "Total Due",
+          "amount": "53022.13",
+          "currency": "USD"
+        },
+        {
+          "label": "Previous Balance",
+          "amount": "15000.00",
+          "currency": "USD"
+        },
+        {
+          "label": "Amount Now Due",
+          "amount": "38022.13",
+          "currency": "USD"
+        }
+      ],
+      "key_facts": [
+        "Payment terms are Net 30.",
+        "Late payment fee of 2% per month applies after due date."
+      ],
+      "action_items": [],
+      "tables": [],
+      "raw_json": {
+        "entities": {
+          "people": [
+            "Jennifer Walsh"
+          ],
+          "organizations": [
+            "Apex Design Studio",
+            "Harrington & Associates Law Firm"
+          ],
+          "locations": [
+            "New York, NY 10012",
+            "New York, NY 10022"
+          ]
+        },
+        "dates": {
+          "invoice_date": "March 15, 2024",
+          "due_date": "April 14, 2024",
+          "contract_date": "February 1, 2024",
+          "deposit_date": "February 5, 2024"
+        },
+        "monetary_values": [
+          {
+            "label": "Brand Strategy & Identity Development",
+            "amount": "8500.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Website Design (UI/UX)",
+            "amount": "14200.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Website Development",
+            "amount": "11800.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Content Writing",
+            "amount": "7000.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Photography Coordination",
+            "amount": "2200.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Project Management & Revisions",
+            "amount": "5000.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Subtotal",
+            "amount": "48700.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Sales Tax",
+            "amount": "4322.13",
+            "currency": "USD"
+          },
+          {
+            "label": "Total Due",
+            "amount": "53022.13",
+            "currency": "USD"
+          },
+          {
+            "label": "Previous Balance",
+            "amount": "15000.00",
+            "currency": "USD"
+          },
+          {
+            "label": "Amount Now Due",
+            "amount": "38022.13",
+            "currency": "USD"
+          }
+        ],
+        "key_facts": [
+          "Payment terms are Net 30.",
+          "Late payment fee of 2% per month applies after due date."
+        ],
+        "action_items": []
+      }
+    },
+    "qa": [
+      {
+        "question": "What is the total amount due?",
+        "answer": "The total amount due is $38,022.13. (Source1)",
+        "citations": [
+          "Item 4: Content Writing\n  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions\n  Quantity: 20 pages\n  Unit Price: $350.00 per page\n  Total: $7,000.00 Item 5:",
+          "INVOICE Invoice Number: INV-2024-03892\nInvoice Date: March 15, 2024\nDue Date: April 14, 2024\nPayment Terms: Net 30 FROM:\nApex Design Studio\n742 Creative Boulevard\nNew York, NY 10012\nTax ID: 47-2839104"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What is the outstanding balance?",
+        "answer": "The outstanding balance is $38,022.13. (Source1)",
+        "citations": [
+          "Item 4: Content Writing\n  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions\n  Quantity: 20 pages\n  Unit Price: $350.00 per page\n  Total: $7,000.00 Item 5:",
+          "INVOICE Invoice Number: INV-2024-03892\nInvoice Date: March 15, 2024\nDue Date: April 14, 2024\nPayment Terms: Net 30 FROM:\nApex Design Studio\n742 Creative Boulevard\nNew York, NY 10012\nTax ID: 47-2839104"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "When is payment due?",
+        "answer": "Payment is due on April 14, 2024. (Source2)",
+        "citations": [
+          "Item 4: Content Writing\n  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions\n  Quantity: 20 pages\n  Unit Price: $350.00 per page\n  Total: $7,000.00 Item 5:",
+          "INVOICE Invoice Number: INV-2024-03892\nInvoice Date: March 15, 2024\nDue Date: April 14, 2024\nPayment Terms: Net 30 FROM:\nApex Design Studio\n742 Creative Boulevard\nNew York, NY 10012\nTax ID: 47-2839104"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "Who is the client?",
+        "answer": "The client is Harrington & Associates Law Firm. (Source1)",
+        "citations": [
+          "INVOICE Invoice Number: INV-2024-03892\nInvoice Date: March 15, 2024\nDue Date: April 14, 2024\nPayment Terms: Net 30 FROM:\nApex Design Studio\n742 Creative Boulevard\nNew York, NY 10012\nTax ID: 47-2839104",
+          "Item 4: Content Writing\n  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions\n  Quantity: 20 pages\n  Unit Price: $350.00 per page\n  Total: $7,000.00 Item 5:"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the deposit amount?",
+        "answer": "The deposit amount was $15,000.00 (Source1).",
+        "citations": [
+          "Item 4: Content Writing\n  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions\n  Quantity: 20 pages\n  Unit Price: $350.00 per page\n  Total: $7,000.00 Item 5:",
+          "INVOICE Invoice Number: INV-2024-03892\nInvoice Date: March 15, 2024\nDue Date: April 14, 2024\nPayment Terms: Net 30 FROM:\nApex Design Studio\n742 Creative Boulevard\nNew York, NY 10012\nTax ID: 47-2839104"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      }
+    ],
+    "chunks": 2,
+    "latency_s": {
+      "classify": 3.2,
+      "extract": 8.36,
+      "index": 6.44,
+      "qa": 71.68
+    },
+    "model": "GPT-4o-mini"
+  },
+  {
+    "doc_id": "meeting_minutes_q1_roadmap",
+    "filename": "meeting_minutes_q1_roadmap.txt",
+    "word_count": 531,
+    "classification": {
+      "document_type": "meeting_minutes",
+      "confidence": 1.0,
+      "secondary_type": "",
+      "routing_tags": [
+        "Q1 2024",
+        "Product Roadmap",
+        "Meeting"
+      ],
+      "summary": "Minutes from the Q1 2024 Product Roadmap Review meeting detailing attendance, agenda items, and decisions made.",
+      "language": "English"
+    },
+    "extraction": {
+      "document_id": "meeting_minutes_q1_roadmap",
+      "entities": {
+        "people": [
+          "David Park",
+          "Rachel Kim",
+          "Tom Bradley",
+          "Aisha Johnson",
+          "Carlos Mendez",
+          "Dr. Elena Vasquez",
+          "James Liu",
+          "Michael Chen",
+          "Priya Sharma"
+        ],
+        "organizations": [],
+        "locations": [
+          "Conference Room B",
+          "Berlin"
+        ]
+      },
+      "dates": {
+        "meeting_date": "March 8, 2024",
+        "next_meeting": "April 5, 2024",
+        "analytics_dashboard_kickoff": "March 22",
+        "mobile_ios_development_start": "March 22",
+        "technical_debt_assessment_due": "March 22",
+        "marketing_plan_finalization_due": "March 15",
+        "recruiting_brief_due": "March 12",
+        "ai_recommendations_spec_due": "April 5"
+      },
+      "monetary_values": [
+        {
+          "label": "Monthly Recurring Revenue",
+          "amount": "3.2M",
+          "currency": "USD"
+        },
+        {
+          "label": "Revenue impact model for Feature A",
+          "amount": "180K",
+          "currency": "USD"
+        },
+        {
+          "label": "Estimated cost for Mobile Application",
+          "amount": "240K",
+          "currency": "USD"
+        },
+        {
+          "label": "Budget request for Q2 marketing",
+          "amount": "320K",
+          "currency": "USD"
+        },
+        {
+          "label": "Total cost for new hires",
+          "amount": "580K",
+          "currency": "USD"
+        },
+        {
+          "label": "Cost per qualified lead",
+          "amount": "47",
+          "currency": "USD"
+        },
+        {
+          "label": "Pipeline generated",
+          "amount": "890K",
+          "currency": "USD"
+        }
+      ],
+      "key_facts": [
+        "Monthly Active Users exceeded target by 6%",
+        "Customer Churn was above target at 4.2%",
+        "Feature A approved for Q2 with kickoff on March 22",
+        "Feature B approved for staggered release in Q2 and Q3",
+        "Feature C deferred to Q3 for model improvement",
+        "Q2 marketing campaign generated 4.2M impressions",
+        "Q2 headcount requests approved for 4 new hires"
+      ],
+      "action_items": [
+        {
+          "action": "Analytics dashboard kickoff",
+          "owner": "Rachel Kim",
+          "due_date": "March 22"
+        },
+        {
+          "action": "Mobile iOS development start",
+          "owner": "Rachel Kim",
+          "due_date": "March 22"
+        },
+        {
+          "action": "Technical debt assessment",
+          "owner": "Rachel Kim",
+          "due_date": "March 22"
+        },
+        {
+          "action": "Q2 marketing plan finalization",
+          "owner": "Aisha Johnson",
+          "due_date": "March 15"
+        },
+        {
+          "action": "Recruiting brief for 4 new hires",
+          "owner": "Carlos Mendez",
+          "due_date": "March 12"
+        },
+        {
+          "action": "AI recommendations Q3 spec",
+          "owner": "James Liu",
+          "due_date": "April 5"
+        }
+      ],
+      "tables": [],
+      "raw_json": {
+        "entities": {
+          "people": [
+            "David Park",
+            "Rachel Kim",
+            "Tom Bradley",
+            "Aisha Johnson",
+            "Carlos Mendez",
+            "Dr. Elena Vasquez",
+            "James Liu",
+            "Michael Chen",
+            "Priya Sharma"
+          ],
+          "organizations": [],
+          "locations": [
+            "Conference Room B",
+            "Berlin"
+          ]
+        },
+        "dates": {
+          "meeting_date": "March 8, 2024",
+          "next_meeting": "April 5, 2024",
+          "analytics_dashboard_kickoff": "March 22",
+          "mobile_ios_development_start": "March 22",
+          "technical_debt_assessment_due": "March 22",
+          "marketing_plan_finalization_due": "March 15",
+          "recruiting_brief_due": "March 12",
+          "ai_recommendations_spec_due": "April 5"
+        },
+        "monetary_values": [
+          {
+            "label": "Monthly Recurring Revenue",
+            "amount": "3.2M",
+            "currency": "USD"
+          },
+          {
+            "label": "Revenue impact model for Feature A",
+            "amount": "180K",
+            "currency": "USD"
+          },
+          {
+            "label": "Estimated cost for Mobile Application",
+            "amount": "240K",
+            "currency": "USD"
+          },
+          {
+            "label": "Budget request for Q2 marketing",
+            "amount": "320K",
+            "currency": "USD"
+          },
+          {
+            "label": "Total cost for new hires",
+            "amount": "580K",
+            "currency": "USD"
+          },
+          {
+            "label": "Cost per qualified lead",
+            "amount": "47",
+            "currency": "USD"
+          },
+          {
+            "label": "Pipeline generated",
+            "amount": "890K",
+            "currency": "USD"
+          }
+        ],
+        "key_facts": [
+          "Monthly Active Users exceeded target by 6%",
+          "Customer Churn was above target at 4.2%",
+          "Feature A approved for Q2 with kickoff on March 22",
+          "Feature B approved for staggered release in Q2 and Q3",
+          "Feature C deferred to Q3 for model improvement",
+          "Q2 marketing campaign generated 4.2M impressions",
+          "Q2 headcount requests approved for 4 new hires"
+        ],
+        "action_items": [
+          {
+            "action": "Analytics dashboard kickoff",
+            "owner": "Rachel Kim",
+            "due_date": "March 22"
+          },
+          {
+            "action": "Mobile iOS development start",
+            "owner": "Rachel Kim",
+            "due_date": "March 22"
+          },
+          {
+            "action": "Technical debt assessment",
+            "owner": "Rachel Kim",
+            "due_date": "March 22"
+          },
+          {
+            "action": "Q2 marketing plan finalization",
+            "owner": "Aisha Johnson",
+            "due_date": "March 15"
+          },
+          {
+            "action": "Recruiting brief for 4 new hires",
+            "owner": "Carlos Mendez",
+            "due_date": "March 12"
+          },
+          {
+            "action": "AI recommendations Q3 spec",
+            "owner": "James Liu",
+            "due_date": "April 5"
+          }
+        ]
+      }
+    },
+    "qa": [
+      {
+        "question": "What was the monthly recurring revenue?",
+        "answer": "The monthly recurring revenue was $3.2M (target: $3.0M \u2014 exceeded by 7%). [Source1]",
+        "citations": [
+          "MEETING MINUTES Meeting: Q1 2024 Product Roadmap Review\nDate: March 8, 2024\nTime: 10:00 AM \u2013 12:15 PM EST\nLocation: Conference Room B / Zoom (hybrid)\nRecorded by: Priya Sharma (Executive Assistant) AT",
+          "Dr. Vasquez raised concern about technical debt in the authentication system. Rachel Kim to provide written assessment by March 22nd. David Park confirmed all-hands meeting scheduled for March 15th at"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What features were approved for Q2?",
+        "answer": "The features approved for Q2 are Feature A: Advanced Analytics Dashboard and Feature B: Mobile Application (iOS/Android). (Source1)",
+        "citations": [
+          "The incident team's post-mortem was shared with the board last month. 2. Feature Prioritization: Q2 2024 (10:30\u201311:15) Three features under consideration for Q2: Feature A: Advanced Analytics Dashboar",
+          "Vasquez: Recommend delaying to Q3 to allow model improvement to 85%+ accuracy\n- DECISION: Deferred to Q3 2024. 3. Marketing Campaign Update (11:15\u201311:45) Aisha Johnson presented the \"Work Smarter\" cam"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the NPS score?",
+        "answer": "The Net Promoter Score (NPS) was 62. (Source4)",
+        "citations": [
+          "Vasquez: Recommend delaying to Q3 to allow model improvement to 85%+ accuracy\n- DECISION: Deferred to Q3 2024. 3. Marketing Campaign Update (11:15\u201311:45) Aisha Johnson presented the \"Work Smarter\" cam",
+          "The incident team's post-mortem was shared with the board last month. 2. Feature Prioritization: Q2 2024 (10:30\u201311:15) Three features under consideration for Q2: Feature A: Advanced Analytics Dashboar"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the headcount budget approved?",
+        "answer": "The headcount budget approved was $580K annualized. (Source1)",
+        "citations": [
+          "Vasquez: Recommend delaying to Q3 to allow model improvement to 85%+ accuracy\n- DECISION: Deferred to Q3 2024. 3. Marketing Campaign Update (11:15\u201311:45) Aisha Johnson presented the \"Work Smarter\" cam",
+          "The incident team's post-mortem was shared with the board last month. 2. Feature Prioritization: Q2 2024 (10:30\u201311:15) Three features under consideration for Q2: Feature A: Advanced Analytics Dashboar"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "Who was absent from the meeting?",
+        "answer": "CEO Michael Chen was absent from the meeting due to a board meeting conflict. (Source1)",
+        "citations": [
+          "MEETING MINUTES Meeting: Q1 2024 Product Roadmap Review\nDate: March 8, 2024\nTime: 10:00 AM \u2013 12:15 PM EST\nLocation: Conference Room B / Zoom (hybrid)\nRecorded by: Priya Sharma (Executive Assistant) AT",
+          "Dr. Vasquez raised concern about technical debt in the authentication system. Rachel Kim to provide written assessment by March 22nd. David Park confirmed all-hands meeting scheduled for March 15th at"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      }
+    ],
+    "chunks": 4,
+    "latency_s": {
+      "classify": 3.09,
+      "extract": 10.27,
+      "index": 6.74,
+      "qa": 78.03
+    },
+    "model": "GPT-4o-mini"
+  },
+  {
+    "doc_id": "research_report_ai_productivity",
+    "filename": "research_report_ai_productivity.txt",
+    "word_count": 563,
+    "classification": {
+      "document_type": "research_report",
+      "confidence": 1.0,
+      "secondary_type": "",
+      "routing_tags": [
+        "AI",
+        "productivity",
+        "knowledge workers"
+      ],
+      "summary": "This research report analyzes the impact of generative AI tools on the productivity of knowledge workers across various industries.",
+      "language": "English"
+    },
+    "extraction": {
+      "document_id": "research_report_ai_productivity",
+      "entities": {
+        "people": [
+          "Dr. Amelia Foster",
+          "Dr. James Okafor",
+          "Dr. Yuki Tanaka"
+        ],
+        "organizations": [
+          "Institute for Technology and Work",
+          "Stanford University",
+          "Alfred P. Sloan Foundation"
+        ],
+        "locations": []
+      },
+      "dates": {
+        "publication_date": "February 28, 2024",
+        "study_duration_start": "January 2023",
+        "study_duration_end": "February 2024"
+      },
+      "monetary_values": [],
+      "key_facts": [
+        "2,847 participants across 143 organizations",
+        "34% average improvement in task completion speed",
+        "47% speed gain in writing-intensive roles",
+        "21% speed gain in analytical roles",
+        "12% average improvement in output quality",
+        "23% of participants reported using AI tools for less than 30 minutes per week",
+        "63% cited accuracy concerns as a barrier to adoption",
+        "Organizations with formal AI training programs showed 2.3x higher adoption rates"
+      ],
+      "action_items": [],
+      "tables": [],
+      "raw_json": {
+        "entities": {
+          "people": [
+            "Dr. Amelia Foster",
+            "Dr. James Okafor",
+            "Dr. Yuki Tanaka"
+          ],
+          "organizations": [
+            "Institute for Technology and Work",
+            "Stanford University",
+            "Alfred P. Sloan Foundation"
+          ],
+          "locations": []
+        },
+        "dates": {
+          "publication_date": "February 28, 2024",
+          "study_duration_start": "January 2023",
+          "study_duration_end": "February 2024"
+        },
+        "monetary_values": [],
+        "key_facts": [
+          "2,847 participants across 143 organizations",
+          "34% average improvement in task completion speed",
+          "47% speed gain in writing-intensive roles",
+          "21% speed gain in analytical roles",
+          "12% average improvement in output quality",
+          "23% of participants reported using AI tools for less than 30 minutes per week",
+          "63% cited accuracy concerns as a barrier to adoption",
+          "Organizations with formal AI training programs showed 2.3x higher adoption rates"
+        ],
+        "action_items": []
+      }
+    },
+    "qa": [
+      {
+        "question": "How many participants were in the study?",
+        "answer": "2,847 participants (Source2 [EXECUTIVE SUMMARY]).",
+        "citations": [
+          "LIMITATIONS Self-selection bias in voluntary participation; Hawthorne effect possible; tool updates during study period; output quality measurement inherently subjective despite blinding protocol. FUN",
+          "Notably, 23% of participants reported using AI tools for less than 30 minutes per week despite having access, citing concerns about accuracy, job security, and learning curve. METHODOLOGY Study Design"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the average productivity improvement?",
+        "answer": "The average productivity improvement was 34%. (Source2)",
+        "citations": [
+          "2. Experience Level Effects\n   Workers with 0-2 years experience: +51% productivity\n   Workers with 2-5 years experience: +38% productivity\n   Workers with 5-10 years experience: +27% productivity\n   ",
+          "RESEARCH REPORT Title: The Impact of Generative AI on Knowledge Worker Productivity: A 2024 Analysis\nAuthors: Dr. Amelia Foster, Dr. James Okafor, Dr. Yuki Tanaka\nInstitution: Institute for Technology"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "Who funded the research?",
+        "answer": "The research was funded by the Alfred P. Sloan Foundation. [Source1 [CONCLUSIONS]]",
+        "citations": [
+          "LIMITATIONS Self-selection bias in voluntary participation; Hawthorne effect possible; tool updates during study period; output quality measurement inherently subjective despite blinding protocol. FUN",
+          "RESEARCH REPORT Title: The Impact of Generative AI on Knowledge Worker Productivity: A 2024 Analysis\nAuthors: Dr. Amelia Foster, Dr. James Okafor, Dr. Yuki Tanaka\nInstitution: Institute for Technology"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "How long was the study?",
+        "answer": "The study lasted for 14 months (January 2023 \u2013 February 2024). [Source2 [EXECUTIVE SUMMARY]]",
+        "citations": [
+          "LIMITATIONS Self-selection bias in voluntary participation; Hawthorne effect possible; tool updates during study period; output quality measurement inherently subjective despite blinding protocol. FUN",
+          "Notably, 23% of participants reported using AI tools for less than 30 minutes per week despite having access, citing concerns about accuracy, job security, and learning curve. METHODOLOGY Study Design"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      },
+      {
+        "question": "What was the quality improvement?",
+        "answer": "The quality improvement was 12% on average, as measured by independent expert evaluation. This information is found in Source4 [EXECUTIVE SUMMARY].",
+        "citations": [
+          "2. Experience Level Effects\n   Workers with 0-2 years experience: +51% productivity\n   Workers with 2-5 years experience: +38% productivity\n   Workers with 5-10 years experience: +27% productivity\n   ",
+          "Notably, 23% of participants reported using AI tools for less than 30 minutes per week despite having access, citing concerns about accuracy, job security, and learning curve. METHODOLOGY Study Design"
+        ],
+        "confidence": 0.9,
+        "answerable": true
+      }
+    ],
+    "chunks": 4,
+    "latency_s": {
+      "classify": 2.3,
+      "extract": 4.83,
+      "index": 6.58,
+      "qa": 70.0
+    },
+    "model": "GPT-4o-mini"
+  }
+]

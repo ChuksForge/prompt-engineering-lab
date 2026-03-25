@@ -1,0 +1,6 @@
+doc_id,model,classification,entity_recall,date_recall,qa_accuracy,composite,total_latency
+contract_service_agreement,GPT-4o-mini,1.0,1.0,1.0,1.0,1.0,129.7
+financial_statement_novatech,GPT-4o-mini,1.0,1.0,0.5,1.0,0.9,105.27
+invoice_design_services,GPT-4o-mini,1.0,1.0,1.0,0.8,0.94,89.68
+meeting_minutes_q1_roadmap,GPT-4o-mini,1.0,1.0,1.0,0.8,0.94,98.13
+research_report_ai_productivity,GPT-4o-mini,1.0,1.0,1.0,0.6,0.88,83.71000000000001

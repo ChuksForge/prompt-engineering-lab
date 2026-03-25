@@ -1,0 +1,78 @@
+INVOICE
+
+Invoice Number: INV-2024-03892
+Invoice Date: March 15, 2024
+Due Date: April 14, 2024
+Payment Terms: Net 30
+
+FROM:
+Apex Design Studio
+742 Creative Boulevard
+New York, NY 10012
+Tax ID: 47-2839104
+contact@apexdesign.studio
+
+TO:
+Harrington & Associates Law Firm
+850 Third Avenue, 22nd Floor
+New York, NY 10022
+Attention: Jennifer Walsh, Operations Director
+
+PROJECT: Website Redesign & Brand Identity Refresh
+Project Reference: HAL-2024-WEB-01
+Contract Date: February 1, 2024
+
+SERVICES RENDERED:
+
+Item 1: Brand Strategy & Identity Development
+  Description: Logo redesign, color palette, typography system, brand guidelines document
+  Quantity: 1 project
+  Unit Price: $8,500.00
+  Total: $8,500.00
+
+Item 2: Website Design (UI/UX)
+  Description: 12-page responsive website design, desktop and mobile wireframes, prototype
+  Quantity: 1 project
+  Unit Price: $14,200.00
+  Total: $14,200.00
+
+Item 3: Website Development
+  Description: Front-end development, CMS integration (WordPress), SEO optimization
+  Quantity: 1 project
+  Unit Price: $11,800.00
+  Total: $11,800.00
+
+Item 4: Content Writing
+  Description: Website copy for 12 pages, attorney bios (8 attorneys), practice area descriptions
+  Quantity: 20 pages
+  Unit Price: $350.00 per page
+  Total: $7,000.00
+
+Item 5: Photography Coordination
+  Description: Professional headshots (8 attorneys), office photography session
+  Quantity: 1 session
+  Unit Price: $2,200.00
+  Total: $2,200.00
+
+Item 6: Project Management & Revisions
+  Description: Two rounds of revisions per deliverable, project coordination, client meetings
+  Quantity: 40 hours
+  Unit Price: $125.00 per hour
+  Total: $5,000.00
+
+SUBTOTAL: $48,700.00
+Sales Tax (8.875% NY): $4,322.13
+TOTAL DUE: $53,022.13
+
+Previous Balance: $15,000.00 (deposit paid February 5, 2024)
+AMOUNT NOW DUE: $38,022.13
+
+PAYMENT INSTRUCTIONS:
+Bank: Chase Bank
+Account Name: Apex Design Studio
+Account Number: XXXX-XXXX-4821
+Routing Number: XXXX4731
+Reference: INV-2024-03892
+
+Late payment fee of 2% per month applies after due date.
+Questions: billing@apexdesign.studio | (212) 555-0147

@@ -1,0 +1,55 @@
+SERVICE AGREEMENT
+
+Contract Number: SVC-2024-0847
+Effective Date: January 15, 2024
+Expiration Date: January 14, 2027
+
+PARTIES
+
+This Service Agreement ("Agreement") is entered into as of the Effective Date between:
+
+CLIENT: Meridian Technologies Inc., a Delaware corporation with its principal place of business at 4200 Innovation Drive, Austin, Texas 78701 ("Client")
+
+SERVICE PROVIDER: CloudOps Solutions LLC, a California limited liability company with its principal place of business at 1850 Market Street, Suite 400, San Francisco, California 94103 ("Provider")
+
+1. SERVICES
+
+Provider agrees to deliver the following managed cloud infrastructure services:
+- 24/7 infrastructure monitoring and incident response
+- Monthly security audits and vulnerability assessments
+- Automated backup and disaster recovery services
+- Dedicated account management and quarterly business reviews
+
+2. TERM AND RENEWAL
+
+This Agreement shall commence on the Effective Date and continue for a period of three (3) years unless earlier terminated. Either party may terminate this Agreement with ninety (90) days written notice. Automatic renewal for successive one-year terms shall occur unless notice of non-renewal is provided sixty (60) days prior to expiration.
+
+3. COMPENSATION
+
+Client shall pay Provider a monthly service fee of $12,500 (twelve thousand five hundred dollars) due within thirty (30) days of invoice. Late payments shall accrue interest at the rate of 1.5% per month. Annual fees total $150,000.
+
+4. SERVICE LEVEL AGREEMENT
+
+Provider guarantees 99.9% uptime for all monitored systems. In the event of SLA breach, Client shall receive service credits equal to 10% of monthly fees for each hour of downtime exceeding the guaranteed threshold, up to a maximum credit of one month's fees.
+
+5. CONFIDENTIALITY
+
+Each party agrees to maintain the confidentiality of the other party's proprietary information and trade secrets for a period of five (5) years following termination of this Agreement.
+
+6. LIABILITY LIMITATION
+
+Provider's total liability under this Agreement shall not exceed the total fees paid by Client in the twelve (12) months preceding the claim. Neither party shall be liable for indirect, incidental, or consequential damages.
+
+7. GOVERNING LAW
+
+This Agreement shall be governed by the laws of the State of Delaware. Any disputes shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
+
+SIGNATURES
+
+Meridian Technologies Inc.
+By: Sarah Chen, Chief Technology Officer
+Date: January 12, 2024
+
+CloudOps Solutions LLC
+By: Marcus Rodriguez, Chief Executive Officer
+Date: January 13, 2024
